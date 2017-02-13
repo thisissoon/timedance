@@ -1,0 +1,157 @@
+/* head.css
+======================================== */
+
+header.site {
+  padding: 50px 0 100px;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: -50px;
+}
+
+header.site .logo,
+header.site .title-wrapper {
+  display: inline-block;
+  float: left;
+}
+
+header.site .logo {
+  width: 75px;
+}
+
+.title-wrapper {
+  margin-top: 6px;
+  padding-left: 15px;
+}
+
+header.site .title h1 {
+  font-size: 27px;
+  font-weight: normal;
+  text-align: left;
+}
+
+header.site .sub-title h2 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* 
+======================================== */
+
+header.site nav {
+  margin-top: 37px;
+}
+
+header.site nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+
+header.site nav li {
+  display: inline-block;
+  padding: 4px 15px 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* 
+======================================== */
+
+header.site .contact {
+  margin-top: 15px;
+  text-align: left;
+}
+
+header.site .contact p {
+  margin: 0 0 5px;
+}
+
+/* 
+======================================== */
+
+.home .releases-btn,
+.active {
+  border-top: 1px solid #333333;
+  
+}
+
+.home header.site nav li a.releases-btn:hover,
+.home header.site nav li a.releases-btn:focus,
+.home header.site nav li a.releases-btn:active,
+header.site nav li a.active:hover,
+header.site nav li a.active:focus,
+header.site nav li a.active:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* 
+======================================== */
+
+@media (min-width: 320px) {
+
+  header.site .logo,
+  header.site .title-wrapper {
+    display: block;
+    float: none;
+  }
+
+  header.site .logo {
+    margin: 0 auto;
+  }
+
+  .title-wrapper {
+    margin-top: 15px;
+    padding-left: 0;
+  }
+
+  header.site .title h1,
+  header.site .sub-title h2 {
+    text-align: center;
+  }
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  header.site .logo,
+  header.site .title-wrapper {
+    display: inline-block;
+    float: left;
+  }
+
+  header.site .logo {
+    margin: 0;
+  }
+
+  .title-wrapper {
+    margin-top: 6px;
+    padding-left: 15px;
+  }
+
+  header.site .title h1,
+  header.site .sub-title h2 {
+    text-align: left;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+

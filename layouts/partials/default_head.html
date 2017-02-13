@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {{ .Hugo.Generator }}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/{{ with .Site.Params.SyntaxHighlightTheme }}{{ . }}{{ else  }}solarized_dark.min.css{{ end }}">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animation.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/head.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/foot.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/single.css">
+
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.BaseURL }}/index.xml">
+
+    {{ if eq .URL "/" }}
+    <title>{{ .Title }}</title>
+    <meta property='og:title' content="{{ .Title }}">
+    <meta property="og:type" content="website">
+    {{ else }}
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:type" content="article">
+    {{ end }}
+
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}images/{{ . }}">{{ end }}
+
+  </head>
+
+  <body class="fadein">
+
+    <div class="wrapper">
+
+    <header class="site">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">  
+                    <div class="logo">
+                        <a href="{{ .Site.BaseURL }}">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.3 358.52"><title>timedance-logo</title><path d="M52.36,144,195.09,1.27a170.22,170.22,0,0,0-56.44,19.22A170.88,170.88,0,0,0,1.27,162.3L66.9,96.67A170.41,170.41,0,0,0,52.36,144Z"/><path d="M59.2,224.47,275.56,8.11A171,171,0,0,0,237,0L213.78,23.23a171.31,171.31,0,0,0-27.86-4.92L0,204.23a171.06,171.06,0,0,0,8.11,38.54L52.67,198.2A170.76,170.76,0,0,0,59.2,224.47Z"/><path d="M90.66,280.32,331.41,39.57a170.2,170.2,0,0,0-27.61-19l-31.2,31.2a169.85,169.85,0,0,0-19.89-12.9L20.52,271a170.22,170.22,0,0,0,19,27.61l37.21-37.21A170.56,170.56,0,0,0,90.66,280.32Z"/><path d="M138.59,319.69,370.78,87.5a170.19,170.19,0,0,0-19-27.61L314.52,97.11A170.53,170.53,0,0,0,300.65,78.2L59.89,319A170.21,170.21,0,0,0,87.5,338l31.2-31.2A169.86,169.86,0,0,0,138.59,319.69Z"/><path d="M205.38,340.21,391.3,154.29a171,171,0,0,0-8.11-38.54l-44.57,44.57a170.73,170.73,0,0,0-6.52-26.26L115.75,350.41a171,171,0,0,0,38.54,8.11l23.23-23.23A171.32,171.32,0,0,0,205.38,340.21Z"/><path d="M338.95,214.52,196.21,357.25A170.22,170.22,0,0,0,252.65,338,170.88,170.88,0,0,0,390,196.21l-65.63,65.63A170.41,170.41,0,0,0,338.95,214.52Z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="title-wrapper">
+                        <div class="title">
+                            <a href="{{ .Site.BaseURL }}">
+                                <h1>{{ .Site.Title }}<h1>
+                            </a>
+                        </div>
+                    
+                        <div class="sub-title">
+                            <h2>Record label<span class="hidden-lg">.</span><span class="hidden-xs hidden-sm hidden-md"> based in</span> Bristol, UK</h2>
+                        </div>
+                    </div>
+                     
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <nav>
+                        <ul>
+                            <li><a href="/releases/" class="releases-btn{{ if eq .Title "Releases" }} active{{ end }}">Releases</a></li>
+                            <li><a href="/events/" class="events-btn{{ if eq .Title "Events" }} active{{ end }}">Events</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="contact hidden-sm hidden-xs">
+                        <p>General: <a href="mailto:#">info@timedancemusic.com</a></p>
+                        <p>PR: <a href="mailto:#">rob.booth@fabriclondon.com</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container site">
+
