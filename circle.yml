@@ -1,0 +1,22 @@
+#
+# Timedance CircleCI Configuration
+#
+
+machine:
+  environment:
+    TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
+
+dependencies:
+  pre:
+    - go get -v github.com/spf13/hugo
+
+test:
+  override:
+    - echo "test"
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - hugo --theme=hugo_theme_robust
+      - sh deploy.sh timedance-soon-build
