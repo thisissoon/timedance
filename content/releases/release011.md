@@ -4,7 +4,7 @@
 title = "Timedance011”
 
 # Release date
-date = "2017-03-12T00:00:01Z"
+date = "2017-03-10T00:00:01Z"
 
 # Artwork
 image = "releases/release011.jpg"
