@@ -49,5 +49,5 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus.
+xxx xxxxxxxxxxx Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus. xxxx
 
