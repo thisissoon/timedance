@@ -72,7 +72,7 @@ article.single .article-controls p {
 
 article.single .article-controls .prev, 
 article.single .article-controls .next {
-	background: #000000;
+	background: #000;
 	display: inline-block;
 	height: 50px;
 	width: 50px;	
@@ -95,8 +95,8 @@ article.single .article-controls .prev svg {
 
 article.single aside {
 	padding: 30px 0 10px;
-	border-top: 1px solid #7e7e7e;
-	border-bottom: 1px solid #7e7e7e;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 article.single aside .section {

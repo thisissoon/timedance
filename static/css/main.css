@@ -18,7 +18,7 @@ article.release-item {
 }
 
 article.single {
-	color: #ffffff;
+	color: #000;
 	background-color: transparent;
   padding-bottom: 70px;
 }
@@ -63,7 +63,7 @@ article.single aside a.news,
 article.single a.share-facebook,
 article.single a.share-twitter {
 	padding-bottom: 5px;
-  color: #ffffff;
+  color: #000;
 }
 
 article.single aside a:after,
@@ -84,7 +84,7 @@ article.single .article-share a:hover:after {
 
 header.site .title a {
   transition-duration: .2s;
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ header.site .title a:hover,
 header.site .title a:focus,
 header.site .title a:active {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 header.site nav li a {
@@ -109,6 +109,20 @@ header.site nav li a:active {
   color: #7e7e7e;
 }
 
+/* 
+======================================== */
+
+article.single .article-controls .prev, 
+article.single .article-controls .next {
+  transition-duration: .2s;
+  background: #000;  
+}
+
+article.single .article-controls .prev:hover, 
+article.single .article-controls .next:hover {
+  transition-duration: .2s;
+  background: #7e7e7e;  
+}
 
 /* img-links
 ======================================== */
