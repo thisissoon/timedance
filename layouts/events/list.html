@@ -1,28 +1,28 @@
+{{ partial "default_head.html" . }}
+
 <div class="list">
-  {{ partial "default_head.html" . }}
-  <div class="row">
-    <div class="col-sm-12">
 
-      <header class="title"><h1>X{{ .Title }}X</h1></header>
+  <div class="container site">
+  
+    <div class="row">
+      <div class="col-sm-12">
 
-      <div class="articles">
-        <div class="row">
-          {{ range (.Paginate .Data.Pages).Pages }}
-          <div class="col-sm-3">
-            {{ .Render "li" }}
+        <div class="articles">
+          <div class="row">
+            
+            {{ range (.Paginate .Data.Pages).Pages }}
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+              {{ .Render "li" }}
+            </div>
+            {{ end }}
+
           </div>
-          {{ end }}
         </div>
+
+        {{ partial "pagination.html" . }}
+
       </div>
-
-      {{ partial "pagination.html" . }}
-
     </div>
-
-    <div class="col-sm-3">
-      {{ partial "sidebar.html" . }}
-    </div>
-
   </div>
-  {{ partial "default_foot.html" . }}
-</div>
+
+{{ partial "default_foot.html" . }}
