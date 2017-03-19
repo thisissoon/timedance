@@ -1,45 +1,11 @@
 .fadein {
-    -webkit-animation: fadein 800ms;
-       -moz-animation: fadein 800ms;
-        -ms-animation: fadein 800ms;
-         -o-animation: fadein 800ms;
-            animation: fadein 800ms;
+    -webkit-animation: fadein 400ms;
+       -moz-animation: fadein 400ms;
+        -ms-animation: fadein 400ms;
+         -o-animation: fadein 400ms;
+            animation: fadein 400ms;
 }
 
-.fadein-1,
-.fadein-2,
-.fadein-3,
-.fadein-4 {
-
-	opacity: 0;
-
-    -webkit-animation: fadein 800ms;
-       -moz-animation: fadein 800ms;
-        -ms-animation: fadein 800ms;
-         -o-animation: fadein 800ms;
-            animation: fadein 800ms;
-
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-.fadein-2,
-.fade-2 {
-    -webkit-animation-delay: 200ms;
-    animation-delay: 200ms;
-}
-
-.fadein-3,
-.fade-3 {
-    -webkit-animation-delay: 400ms;
-    animation-delay: 400ms;
-}
-
-.fadein-4,
-.fade-4 {
-    -webkit-animation-delay: 600ms;
-    animation-delay: 600ms;
-}
 
 @keyframes fadein {
     from { opacity: 0; }
