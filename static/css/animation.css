@@ -1,9 +1,9 @@
 .fadein {
-    -webkit-animation: fadein 400ms;
-       -moz-animation: fadein 400ms;
-        -ms-animation: fadein 400ms;
-         -o-animation: fadein 400ms;
-            animation: fadein 400ms;
+    -webkit-animation: fadein 800ms;
+       -moz-animation: fadein 800ms;
+        -ms-animation: fadein 800ms;
+         -o-animation: fadein 800ms;
+            animation: fadein 800ms;
 }
 
 
