@@ -4,15 +4,21 @@
 .list,
 .single,
 .home {
-	background-color: #e0e0e0;
+	/*background-color: #2c2c2c;*/
+}
+
+.list .site,
+.single .site,
+.home .site {
+  margin-top: -50px;
 }
 
 article.release-item {
-  background-color: #e0e0e0;
+  background-color: #7e7e7e;
 }
 
 article.single {
-	color: #000;
+	color: #ffffff;
 	background-color: transparent;
   padding-bottom: 70px;
 }
@@ -35,7 +41,19 @@ a {
 
 a:hover,
 a:focus,
-a:active {
+a:active,
+article.single aside a.tag:hover,
+article.single aside a.tag:focus,
+article.single aside a.tag:active,
+article.single aside a.news:hover,
+article.single aside a.news:focus,
+article.single aside a.news:active,
+article.single a.share-facebook:hover,
+article.single a.share-facebook:focus,
+article.single a.share-facebook:active,
+article.single a.share-twitter:hover,
+article.single a.share-twitter:focus,
+article.single a.share-twitter:active {
   text-decoration: none;
   color: #7e7e7e;
 }
@@ -45,6 +63,7 @@ article.single aside a.news,
 article.single a.share-facebook,
 article.single a.share-twitter {
 	padding-bottom: 5px;
+  color: #ffffff;
 }
 
 article.single aside a:after,
@@ -89,7 +108,6 @@ header.site nav li a:active {
   text-decoration: none;
   color: #7e7e7e;
 }
-
 
 
 /* img-links
