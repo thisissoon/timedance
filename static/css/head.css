@@ -5,7 +5,7 @@ header.site {
   padding: 50px 0 100px;
   text-align: center;
   background-color: #fff;
-  margin-bottom: -50px;
+  margin-bottom: 0;
 }
 
 header.site .logo,
@@ -74,7 +74,7 @@ header.site .contact p {
 /* 
 ======================================== */
 
-.home .releases-btn,
+.releases-btn,
 .active {
   border-top: 1px solid #333333;
   
