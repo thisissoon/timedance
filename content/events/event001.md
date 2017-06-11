@@ -53,12 +53,18 @@ guestLabels04 = [
 	"Label 02"
 ]
 
+# Time
+time = "22:00 – 04:00"
+
 # Venue details
 venueName = "Cavern Club"
 venueAddress = "10, All Saints Lane, Bristol, BS1 1JH"
 
 # Entry price
 entryPrice = "£5"
+
+# Link to tickets e.g. RA, Crack 
+tickets = "https://www.residentadvisor.net/event.aspx?679740"
 
 # Any news relating to this release should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook Page"
