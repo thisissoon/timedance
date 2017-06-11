@@ -1,182 +1,231 @@
 {{ partial "default_head.html" . }}
 
-<div class="single">
+<div class="single fadein">
 
-  <div class="container site">
-  
-    <div class="row">
-      <div class="col-sm-12">
+    <div class="container site">
 
-        <article class="single event-item" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <div class="row">
+            <div class="col-sm-12">
 
-        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
-        <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
-        <meta itemprop="headline" content="{{ .Title }}">
-        <meta itemprop="description" content="{{ .Summary }}">
-        <meta itemprop="url" content="{{ .Permalink }}">
-        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
-        <meta itemprop="width" content="800">
-        <meta itemprop="height" content="800">
-        </div>
-        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
-        <meta itemprop="width" content="100">
-        <meta itemprop="height" content="100">
-        </div>
-        <meta itemprop="name" content="{{ .Site.Title }}">
-        </div>
-        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <meta itemprop="name" content="{{ .Site.Params.Author }}">
-        </div>
+                <!-- article
+                ======================================== -->
 
-          <div class="row">
+                <article class="single event-item" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+                    <!-- meta
+                    ======================================== -->
+
+                    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
+                    <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+                    <meta itemprop="headline" content="{{ .Title }}">
+                    <meta itemprop="description" content="{{ .Summary }}">
+                    <meta itemprop="url" content="{{ .Permalink }}">
+                    
+                    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                        <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
+                        <meta itemprop="width" content="800">
+                        <meta itemprop="height" content="800">
+                    </div>
+                    
+                    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                            <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
+                            <meta itemprop="width" content="100">
+                            <meta itemprop="height" content="100">
+                        </div>
+                        <meta itemprop="name" content="{{ .Site.Title }}">
+                    </div>
+
+                    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <meta itemprop="name" content="{{ .Site.Params.Author }}">
+                    </div>
+
+                    <!--
+                    ======================================== -->
+
+                    <div class="row">
+
+                        <!-- image
+                        ======================================== --> 
+
+                        <div class="col-sm-8 col-md-6">
+                          
+                            <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
+                      
+                        </div>
+
+                        <!-- text
+                        ======================================== -->
+
+                        <div class="col-sm-12 col-md-6">
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-8">
+
+                                    <header class="article-header">
+
+                                        <h4>Details</h4>
+
+                                        <!-- <h1 class="article-title">{{ .Title }}</h1> -->
+
+                                        <!-- guest -->
+                                        {{ if .Params.guestname01 }}
+                                        <h2 class="article-guest">{{ .Params.guestname01 }}</h2>
+
+                                        <ul class="article-guest-labels">
+                                            {{ range .Params.guestlabels01 }}
+                                            <li>{{ . }}/</li>
+                                            {{ end }}
+                                        </ul>
+                                        {{ end }}
+
+                                        <!-- guest -->
+                                        {{ if .Params.guestname02 }}
+                                        <h2 class="article-guest">{{ .Params.guestname02 }}</h2>
+
+                                        <ul class="article-guest-labels">
+                                            {{ range .Params.guestlabels02 }}
+                                            <li>{{ . }}/</li>
+                                            {{ end }}
+                                        </ul>
+                                        {{ end }}
+
+                                        <!-- guest -->
+                                        {{ if .Params.guestname03 }}
+                                        <h2 class="article-guest">{{ .Params.guestname03 }}</h2>
+
+                                        <ul class="article-guest-labels">
+                                            {{ range .Params.guestlabels03 }}
+                                            <li>{{ . }}/</li>
+                                            {{ end }}
+                                        </ul>
+                                        {{ end }}
+
+                                        <!-- guest -->
+                                        {{ if .Params.guestname04 }}
+                                        <h2 class="article-guest">{{ .Params.guestname04 }}</h2>
+
+                                        <ul class="article-guest-labels">
+                                            {{ range .Params.guestlabels04 }}
+                                            <li>{{ . }}/</li>
+                                            {{ end }}
+                                        </ul>
+                                        {{ end }}
+
+                                        <div class="article-date">
+                                            <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">Date: {{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+                                        </div>
+
+                                        <h3 class="article-time">Time: {{ .Params.time }}</h3>
+
+                                        <h3 class="article-venue">Venue: {{ .Params.venuename }}</h3>
+
+                                        <h3 class="article-venue-address">Address: {{ .Params.venueaddress }}</h3>
+
+                                        <h3 class="article-price">Price: {{ .Params.entryprice }}</h3>
+
+                                    </header>
+
+                                </div>
+
+                                <!-- controls
+                                ======================================== -->
+
+                                <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
+                                    <div class="article-controls">
+                                        
+                                        {{ if .PrevInSection }}
+                                            <a href="{{.PrevInSection.Permalink}}">
+                                                <div class="prev">
+                                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M24.19.86H19.95L5.81,15,19.95,29.14h4.24V24.9L14.29,15l9.9-9.9Z" style="fill:#fff"/></svg>
+
+                                                    <p>Prev</p>
+                                                </div>
+                                            </a>
+                                        {{ end }}
+
+                                        {{ if .NextInSection }}
+                                            <a href="{{.NextInSection.Permalink}}">
+                                                <div class="next">
+                                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M10.05.86H5.81V5.1l9.9,9.9-9.9,9.9v4.24h4.24L24.19,15Z" style="fill:#fff"/></svg>
+
+                                                    <p>Next</p>
+                                                </div>  
+                                            </a>
+                                        {{ end }}
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--
+                            ======================================== -->
+
+                            {{ if .Params.tickets }}
+                            <div class="article-cta">
+                              <a class="btn" href="{{ .Params.tickets }}" target="_blank">Tickets</a>
+                            </div>
+                            {{ end }}
+
+                            <!-- <div class="article-body" itemprop="articleBody">
+                                {{ .Content }}
+                            </div> -->
+
+                            <!-- aside
+                            ======================================== -->
+
+                            <aside>
+                                {{ with .Params.tags }}
+                                <div class="section">
+                                    <h4>Tags:</h4>
+                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | lower }}" class="tag">{{ . }}</a></li> {{ end }}</ul>
+                                </div>
+                                {{ end }}
+
+                                {{ if .Params.eventlink01 }}
+                                <div class="section">
+                                    <h4>Links:</h4>
+                                    <ul>
+                                        {{ if .Params.eventlink01 }}
+                                        <li><a href="{{ .Params.eventlink01 }}" class="news">{{ .Params.eventtitle01 }}</a></li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink02 }}
+                                        <li><a href="{{ .Params.eventlink02 }}" class="news">{{ .Params.eventtitle02 }}</a></li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink03 }}
+                                        <li><a href="{{ .Params.eventlink03 }}" class="news">{{ .Params.eventtitle03 }}</a></li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink04 }}
+                                        <li><a href="{{ .Params.eventlink04 }}" class="news">{{ .Params.eventtitle04 }}</a></li>
+                                        {{ end }}
+                                    </ul>           
+                                </div>
+                                {{ end }}
+
+                            </aside>
+
+                            <!-- share
+                            ======================================== -->
+
+                            <div class="article-share">
+                                <h4>Share:</h4>
+                                <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-facebook"><i class="fa fa-facebook"></i>Facebook</a>
+
+                                <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-twitter"><i class="fa fa-twitter"></i>Twitter</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </article>
               
-            <div class="col-sm-8 col-md-6">
-                
-                <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
-            
             </div>
+        </div>
 
-              <div class="col-sm-12 col-md-6">
-
-                <div class="row">
-                  <div class="col-xs-12 col-md-8">
-
-                    <header class="article-header">
-                        <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
-
-                        <!--<h1 class="article-title">{{ .Title }}</h1>-->
-
-                        {{ if .Params.guestname01 }}
-                        <h2 class="article-guest">{{ .Params.guestname01 }}</h2>
-
-                        
-                        <ul class="article-guest-labels">
-                            {{ range .Params.guestlabels01 }}
-                            <li>{{ . }}/</li>
-                            {{ end }}
-                        </ul>
-                        {{ end }}
-
-                        {{ if .Params.guestname02 }}
-                        <h2 class="article-guest">{{ .Params.guestname02 }}</h2>
-
-                        
-                        <ul class="article-guest-labels">
-                            {{ range .Params.guestlabels02 }}
-                            <li>{{ . }}/</li>
-                            {{ end }}
-                        </ul>
-                        {{ end }}
-
-                        {{ if .Params.guestname03 }}
-                        <h2 class="article-guest">{{ .Params.guestname03 }}</h2>
-
-                        
-                        <ul class="article-guest-labels">
-                            {{ range .Params.guestlabels03 }}
-                            <li>{{ . }}/</li>
-                            {{ end }}
-                        </ul>
-                        {{ end }}
-
-                        {{ if .Params.guestname04 }}
-                        <h2 class="article-guest">{{ .Params.guestname04 }}</h2>
-
-                        
-                        <ul class="article-guest-labels">
-                            {{ range .Params.guestlabels04 }}
-                            <li>{{ . }}/</li>
-                            {{ end }}
-                        </ul>
-                        {{ end }}
-
-                        <h3 class="article-venue">{{ .Params.venuename }}</h3>
-
-                        <h3 class="article-venue-address">{{ .Params.venueaddress }}</h3>
-
-                        <h3 class="article-price">{{ .Params.entryprice }}</h3>
-
-                    </header>
-
-                  </div>
-
-                  <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
-                      <div class="article-controls">
-                          {{ if .PrevInSection }}
-                              <a href="{{.PrevInSection.Permalink}}">
-                                  <div class="prev">
-                                      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M24.19.86H19.95L5.81,15,19.95,29.14h4.24V24.9L14.29,15l9.9-9.9Z" style="fill:#fff"/></svg>
-                                      <p>Prev</p>
-                                  </div>
-                              </a>
-                          {{ end }}
-                          {{ if .NextInSection }}
-                              <a href="{{.NextInSection.Permalink}}">
-                                  <div class="next">
-                                      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M10.05.86H5.81V5.1l9.9,9.9-9.9,9.9v4.24h4.24L24.19,15Z" style="fill:#fff"/></svg>
-                                      <p>Next</p>
-                                  </div>  
-                              </a>
-                          {{ end }}
-                      </div>
-
-                  </div>
-              </div>
-
-              <div class="article-body" itemprop="articleBody">
-                  {{ .Content }}
-              </div>
-
-              <aside>
-                  {{ with .Params.tags }}
-                  <div class="section">
-                      <h4>Tags:</h4>
-                      <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | lower }}" class="tag">{{ . }}</a></li> {{ end }}</ul></div>
-                  {{ end }}
-
-                  {{ if .Params.eventlink01 }}
-                  <div class="section">
-                      <h4>Links:</h4>
-                      <ul>
-                          {{ if .Params.eventlink01 }}
-                          <li><a href="{{ .Params.eventlink01 }}" class="news">{{ .Params.eventtitle01 }}</a></li>
-                          {{ end }}
-
-                          {{ if .Params.eventlink02 }}
-                          <li><a href="{{ .Params.eventlink02 }}" class="news">{{ .Params.eventtitle02 }}</a></li>
-                          {{ end }}
-
-                          {{ if .Params.eventlink03 }}
-                          <li><a href="{{ .Params.eventlink03 }}" class="news">{{ .Params.eventtitle03 }}</a></li>
-                          {{ end }}
-
-                          {{ if .Params.eventlink04 }}
-                          <li><a href="{{ .Params.eventlink04 }}" class="news">{{ .Params.eventtitle04 }}</a></li>
-                          {{ end }}
-                      </ul>           
-                  </div>
-                  {{ end }}
-
-              </aside>
-
-              <div class="article-share">
-                  <h4>Share:</h4>
-                  <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-facebook"><i class="fa fa-facebook"></i>Facebook</a>
-
-                  <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-twitter"><i class="fa fa-twitter"></i>Twitter</a>
-              </div>
-
-            </div>
-          </div>
-
-        </article>
-      
-      </div>
     </div>
-
-  </div>
 
 {{ partial "default_foot.html" . }}

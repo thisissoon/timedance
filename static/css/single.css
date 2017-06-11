@@ -5,6 +5,10 @@ article.single .article-header {
 	padding: 85px 0 30px;
 }
 
+article.single .events {
+	padding: 85px 0 0;
+}
+
 article.single h1.article-title {
 	color: #7e7e7e;
 	font-size: 15px;
@@ -14,12 +18,18 @@ article.single h1.article-title {
 	line-height: 18px;
 }
 
-article.single h2.article-artist,
-article.single h2.article-guest {
-	font-size: 54px;
+article.single h2.article-artist {
+	font-size: 27px;
 	font-weight: normal;
 	margin: 20px 0;
-	line-height: 60px;
+	line-height: 36px;
+}
+
+article.single h2.article-guest {
+	font-size: 27px;
+	font-weight: normal;
+	margin: 20px 0 5px;
+	line-height: 36px;
 }
 
 article.single h3.article-track {
@@ -38,9 +48,29 @@ article.single .article-guest-labels li {
 	display: inline-block;
 	font-size: 15px;
 	font-weight: normal;
-	margin: 10px 0;
 	line-height: 18px;
 }
+
+article.single h3.article-time,
+article.single h3.article-venue,
+article.single h3.article-venue-address,
+article.single h3.article-price {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+article.single .article-date {
+	margin: 30px 0 10px;
+}
+
+article.single h3.article-time,
+article.single h3.article-venue,
+article.single h3.article-venue-address,
+article.single h3.article-price {
+	margin: 10px 0;
+}
+
 
 /* 
 ======================================== */
@@ -75,7 +105,10 @@ article.single .article-controls .next {
 	background: #000;
 	display: inline-block;
 	height: 50px;
-	width: 50px;	
+	width: 50px;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
 article.single .article-controls .next svg {
@@ -93,10 +126,17 @@ article.single .article-controls .prev svg {
 /* 
 ======================================== */
 
+.article-cta {
+	margin: 0 0 60px;
+}
+
+/* 
+======================================== */
+
 article.single aside {
 	padding: 30px 0 10px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #7e7e7e;
+	border-bottom: 1px solid #7e7e7e;
 }
 
 article.single aside .section {
@@ -107,6 +147,7 @@ article.single aside .section {
 
 article.single h4 {
 	color: #7e7e7e;
+	font-size: 15px;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 5px;

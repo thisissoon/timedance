@@ -1,0 +1,21 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav class="paging">
+  {{ if .Paginator.HasPrev }}
+  <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}" class="left" rel="prev">
+  	<div class="prev">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M24.19.86H19.95L5.81,15,19.95,29.14h4.24V24.9L14.29,15l9.9-9.9Z" style="fill:#fff"/></svg>
+        <p>Prev</p>
+    </div>
+  </a>
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+  <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}" class="right" rel="next">
+  	<div class="next">
+	    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M10.05.86H5.81V5.1l9.9,9.9-9.9,9.9v4.24h4.24L24.19,15Z" style="fill:#fff"/></svg>
+	    <p>Next</p>
+	</div>  
+  </a>
+  {{ end }}
+</nav>
+{{ end }}
