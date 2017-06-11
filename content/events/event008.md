@@ -19,28 +19,26 @@ categories = [
 ]
 
 # Provide guest name and labels
-guestName01 = "Guest 1"
+guestName01 = "Pangaea"
 
 guestLabels01 = [
-	"Label 01",
-	"Label 02"
+	"Hessle Audio"
 ]
 
-guestName02 = "Guest 2"
+guestName02 = "Ploy"
 
 guestLabels02 = [
-	"Label 01",
-	"Label 02"
+	"Hessle Audio"
 ]
 
-guestName03 = "Guest 3"
+guestName03 = ""
 
 guestLabels03 = [
 	"Label 01",
 	"Label 02"
 ]
 
-guestName04 = "Guest 4"
+guestName04 = ""
 
 guestLabels04 = [
 	"Label 01",
@@ -58,19 +56,19 @@ venueAddress = "Address"
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?679740"
+tickets = ""
 
-# Any news relating to this release should go here. Be sure to provide a title and link
-eventTitle01 = "Facebook Page"
+# Any news relating to this event should go here. Be sure to provide a title and link
+eventTitle01 = "Facebook event"
 eventLink01 = "#"
 
-eventTitle02 = "Example review"
+eventTitle02 = ""
 eventLink02 = "#"
 
-eventTitle03 = "Example review"
+eventTitle03 = ""
 eventLink03 = "#"
 
-eventTitle04 = "Example review"
+eventTitle04 = ""
 eventLink04 = "#"
 
 

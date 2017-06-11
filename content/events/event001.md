@@ -14,8 +14,9 @@ type = "Events"
 
 # Any tags
 tags = [ 
-	"test", 
-	"blah" 
+	"Beneath", 
+	"Batu",
+	"Transient" 
 ]
 
 # Any categories
@@ -66,17 +67,17 @@ entryPrice = "£5"
 # Link to tickets e.g. RA, Crack 
 tickets = "https://www.residentadvisor.net/event.aspx?679740"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
-eventTitle01 = "Facebook Page"
+# Any news relating to this event should go here. Be sure to provide a title and link
+eventTitle01 = "Facebook event"
 eventLink01 = "#"
 
-eventTitle02 = "Example link"
+eventTitle02 = "RA event"
 eventLink02 = "#"
 
-eventTitle03 = "Example link"
+eventTitle03 = "Mix"
 eventLink03 = "#"
 
-eventTitle04 = "Example link"
+eventTitle04 = ""
 eventLink04 = "#"
 
 
