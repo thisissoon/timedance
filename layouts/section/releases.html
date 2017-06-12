@@ -1,5 +1,7 @@
 {{ partial "default_head.html" . }}
 
+{{ $paginator := .Paginate (where .Data.Pages "Type" "Releases") 3 }}
+
 <div class="list fadein">
 
   <div class="container site">
@@ -10,7 +12,7 @@
         <div class="articles">
           <div class="row">
             
-            {{ range (.Paginate .Data.Pages).Pages }}
+            {{ range $key, $value := .Paginator.Pages }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               {{ .Render "li" }}
             </div>
