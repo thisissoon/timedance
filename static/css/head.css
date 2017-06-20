@@ -43,7 +43,7 @@ header.site .sub-title h2 {
 header.site nav {
   margin-top: 35px;
 }
-
+footer.site ul,
 header.site nav ul {
   list-style-type: none;
   margin: 0;
@@ -54,6 +54,7 @@ header.site nav ul {
   text-align: center;
 }
 
+footer.site li,
 header.site nav li {
   display: inline-block;
   padding: 4px 15px 0;
@@ -69,6 +70,7 @@ header.site .contact {
   text-align: right;
 }
 
+footer.site .contact ul,
 header.site .contact ul {
   list-style-type: none;
   margin: 0;
@@ -79,6 +81,7 @@ header.site .contact ul {
   text-align: right;
 }
 
+footer.site .contact li,
 header.site .contact li {
   display: inline-block;
   padding: 0 15px 0;
