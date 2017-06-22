@@ -1,6 +1,14 @@
 baseurl = "/"
 title = "Timedance"
-languageCode = "en-us"
+languageCode = "en-gb"
 
 [Params]
   Author = "Omar"
+  description = "put your description here"
+  keywords = "put your keywords here"
+  author = "Omar"
+  twitter_handle = "@"
+  site_name = "timedance.com"
+  facebook_id = ""
+  meta_image="path/to-your/default/image.jpg"
+  ga_id = ""
