@@ -1,7 +1,7 @@
 +++
 
 # Release title
-title = "Timedance003"
+title = "Timedance003 – Batu"
 
 # Release date
 date = "2016-03-11T00:00:01Z"
@@ -13,7 +13,10 @@ image = "releases/release003.jpg"
 type = "Releases"
 
 # Any tags
-tags = [ "Batu", "Comedy", "Electronic", "Techno", "Bristol" ]
+tags = [ 
+	"Batu", 
+	"Techno"
+]
 
 # Any categories
 categories = [ "Release", "Timedance" ]
@@ -39,15 +42,15 @@ newsTitle01 = ""
 newsLink01 = ""
 
 newsTitle02 = ""
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = ""
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = ""
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
 <!-- Provide a summary/statement below -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus.
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker.

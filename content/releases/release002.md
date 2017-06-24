@@ -1,7 +1,7 @@
 +++
 
 # Release title
-title = "Timedance002"
+title = "Timedance002 – L.SAE"
 
 # Release date
 date = "2015-09-11T00:00:01Z"
@@ -13,7 +13,10 @@ image = "releases/release002.jpg"
 type = "Releases"
 
 # Any tags
-tags = [ "L.SAE", "Electronic", "Bass", "Farts", "Spooky", "Techno", "UK", "Bristol" ]
+tags = [ 
+	"L.SAE", 
+	"Techno"
+]
 
 # Any categories
 categories = [ "Release", "Timedance" ]
@@ -48,4 +51,4 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus.
+140g record, mastered by Beau Thomas, limited copies. Black sleeve w/ sticker.

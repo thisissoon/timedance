@@ -1,7 +1,7 @@
 +++
 
 # Release title
-title = "Timedance001"
+title = "Timedance001 – Batu"
 
 # Release date
 date = "2015-01-28T00:00:01Z"
@@ -15,13 +15,7 @@ type = "Releases"
 # Any tags
 tags = [ 
 	"Batu", 
-	"Electronic", 
-	"Bass", 
-	"Bible", 
-	"Song", 
-	"Techno", 
-	"UK", 
-	"Bristol" 
+	"Techno"
 ]
 
 # Any categories
@@ -49,15 +43,15 @@ newsTitle01 = "RA review"
 newsLink01 = "https://www.residentadvisor.net/reviews/16676"
 
 newsTitle02 = "Juno Plus review"
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = "Example review"
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = "Example review"
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
 <!-- Provide a summary/statement below -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus.
+Lorem ipsum dolor sit amet...

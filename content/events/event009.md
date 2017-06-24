@@ -8,8 +8,12 @@ type = "Events"
 
 # Any tags
 tags = [ 
-	"test", 
-	"blah" 
+	"Tessela", 
+	"Beatrice Dillon",
+	"Poly Kicks",
+	"R&S",
+	"Alien Jams",
+	"Where To Now" 
 ]
 
 # Any categories
@@ -62,16 +66,16 @@ tickets = "https://www.residentadvisor.net/event.aspx?873622"
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"
-eventLink01 = "#"
+eventLink01 = ""
 
 eventTitle02 = ""
-eventLink02 = "#"
+eventLink02 = ""
 
 eventTitle03 = ""
-eventLink03 = "#"
+eventLink03 = ""
 
 eventTitle04 = ""
-eventLink04 = "#"
+eventLink04 = ""
 
 
 +++

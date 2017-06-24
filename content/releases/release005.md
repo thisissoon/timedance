@@ -1,7 +1,7 @@
 +++
 
 # Release title
-title = "Timedance005"
+title = "Timedance005 – Ploy"
 
 # Release date
 date = "2016-07-29T00:00:01Z"
@@ -13,7 +13,10 @@ image = "releases/release005.jpg"
 type = "Releases"
 
 # Any tags
-tags = [ "Electronic", "Bass", "Donk", "Techno", "Bristol" ]
+tags = [ 
+	"Ploy",
+	"Techno"
+]
 
 # Any categories
 categories = [ "Release", "Timedance" ]
@@ -49,4 +52,4 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, scelerisque et neque nec, mattis bibendum justo. Maecenas lobortis neque vitae venenatis ornare. Phasellus non tellus condimentum erat pharetra varius. Nulla viverra tempus est, vitae condimentum leo malesuada eget. Phasellus cursus non lorem et tincidunt. Curabitur blandit turpis lacus.
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Danielle Doobay 

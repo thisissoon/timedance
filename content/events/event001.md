@@ -16,7 +16,13 @@ type = "Events"
 tags = [ 
 	"Beneath", 
 	"Batu",
-	"Transient" 
+	"Transient",
+	"Berceuse Heroique",
+	"Pan",
+	"NoSymbols",
+	"Timedance",
+	"dnuoS ytiviL",
+	"Tape-Echo" 
 ]
 
 # Any categories
@@ -72,13 +78,13 @@ eventTitle01 = "Facebook event"
 eventLink01 = "#"
 
 eventTitle02 = "RA event"
-eventLink02 = "#"
+eventLink02 = ""
 
 eventTitle03 = "Mix"
-eventLink03 = "#"
+eventLink03 = ""
 
 eventTitle04 = ""
-eventLink04 = "#"
+eventLink04 = ""
 
 
 +++

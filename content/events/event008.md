@@ -8,8 +8,9 @@ type = "Events"
 
 # Any tags
 tags = [ 
-	"test", 
-	"blah" 
+	"Pangaea", 
+	"Ploy",
+	"Hessle Audio" 
 ]
 
 # Any categories
