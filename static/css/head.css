@@ -19,7 +19,7 @@ header.site .logo {
 }
 
 .title-wrapper {
-  margin-top: 5px;
+  margin-top: 15px;
   padding-left: 15px;
 }
 
@@ -41,9 +41,9 @@ header.site .sub-title h2 {
 ======================================== */
 
 header.site nav {
-  margin-top: 35px;
+  margin-top: 20px;
 }
-footer.site ul,
+
 header.site nav ul {
   list-style-type: none;
   margin: 0;
@@ -54,7 +54,6 @@ header.site nav ul {
   text-align: center;
 }
 
-footer.site li,
 header.site nav li {
   display: inline-block;
   padding: 4px 15px 0;
@@ -66,11 +65,10 @@ header.site nav li {
 ======================================== */
 
 header.site .contact {
-  margin-top: 32px;
+  margin-top: 16px;
   text-align: right;
 }
 
-footer.site .contact ul,
 header.site .contact ul {
   list-style-type: none;
   margin: 0;
@@ -81,12 +79,15 @@ header.site .contact ul {
   text-align: right;
 }
 
-footer.site .contact li,
 header.site .contact li {
   display: inline-block;
   padding: 0 15px 0;
   text-align: left;
   font-size: 21px;
+}
+
+header.site .contact li.last {
+  padding: 0 0 0 15px;
 }
 
 /* 
@@ -97,9 +98,6 @@ header.site .contact li {
   
 }
 
-.home header.site nav li a.releases-btn:hover,
-.home header.site nav li a.releases-btn:focus,
-.home header.site nav li a.releases-btn:active,
 header.site nav li a.active:hover,
 header.site nav li a.active:focus,
 header.site nav li a.active:active {
@@ -125,11 +123,21 @@ header.site nav li a.active:active {
   .title-wrapper {
     margin-top: 15px;
     padding-left: 0;
+    padding-bottom: 20px;
   }
 
   header.site .title h1,
   header.site .sub-title h2 {
     text-align: center;
+  }
+
+  header.site .contact {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  header.site .contact li.last {
+    padding: 0 15px 0;
   }
 
 }
@@ -138,6 +146,13 @@ header.site nav li a.active:active {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
   header.site .logo,
   header.site .title-wrapper {
     display: inline-block;
@@ -149,8 +164,9 @@ header.site nav li a.active:active {
   }
 
   .title-wrapper {
-    margin-top: 5px;
+    margin-top: 15px;
     padding-left: 15px;
+    padding-bottom: 0;
   }
 
   header.site .title h1,
@@ -158,11 +174,14 @@ header.site nav li a.active:active {
     text-align: left;
   }
 
-}
+  header.site .contact {
+    margin-top: 16px;
+    text-align: right;
+  }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
+  header.site .contact li.last {
+    padding: 0 0 0 15px;
+  }
 
 }
 

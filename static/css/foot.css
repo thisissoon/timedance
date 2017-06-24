@@ -16,11 +16,102 @@ footer .pattern {
 }
 
 footer section {
-	margin: 50px 0;
+	margin: 20px 0 40px;
 }
+
+footer.site h4 {
+	color: #7e7e7e;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+footer.site h3 {
+	font-size: 15px;
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+	/*margin-bottom: 10px;*/
+}
+
 
 footer.site p {
 	font-size: 15px;
 	color: #000;
 	text-align: left;
+}
+
+/* 
+======================================== */
+
+footer.site .footer-item {
+	margin: 20px 0 40px;
+}
+
+footer.site .footer-item ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer.site .footer-item li {
+	display: block;
+	margin: 5px 0;
+}
+
+footer.site .footer-item a {
+	margin: 0;
+}
+
+/* media queries
+======================================== */
+
+@media (min-width: 320px) {
+
+	footer.site h4 {
+		margin-bottom: 10px;
+	}
+
+	footer.site .footer-item {
+		margin: 15px 0;
+	}
+
+	footer.site .footer-item li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+  
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	footer.site h4 {
+		margin-bottom: 20px;
+	}
+
+	footer.site .footer-item {
+		margin: 20px 0 40px;
+	}
+
+	footer.site .footer-item li {
+		display: block;
+		margin: 5px 0;
+	}
+  
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
 }
