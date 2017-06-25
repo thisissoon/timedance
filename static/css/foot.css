@@ -32,7 +32,6 @@ footer.site h3 {
 	color: #000;
 	text-align: left;
 	font-weight: normal;
-	/*margin-bottom: 10px;*/
 }
 
 
@@ -68,6 +67,11 @@ footer.site .footer-item a {
 
 @media (min-width: 320px) {
 
+	footer.site {
+		position: relative;
+		width: 100%;
+	}
+
 	footer.site h4 {
 		margin-bottom: 10px;
 	}
@@ -93,6 +97,12 @@ footer.site .footer-item a {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+	footer.site {
+		position: fixed;
+		width: 100%;
+	    bottom: 0;
+	}
 
 	footer.site h4 {
 		margin-bottom: 20px;
