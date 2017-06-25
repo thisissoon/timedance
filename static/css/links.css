@@ -12,7 +12,8 @@ article.single .article-share .fa-twitter {
 /* text-links
 ======================================== */
 
-a {
+a:link,
+a:visited {
   transition-duration: .2s;
   text-decoration: none;
   position: relative;
@@ -66,12 +67,8 @@ footer.site .footer-item a:hover:after {
 /* logo
 ======================================== */
 
-header.site .title a {
-  transition-duration: .2s;
-  color: #000;
-  text-decoration: none;
-}
-
+header.site .title a:link,
+header.site .title a:visited,
 header.site .title a:hover,
 header.site .title a:active {
   text-decoration: none;
@@ -105,11 +102,27 @@ article.single .article-controls .next {
   background: #000;  
 }
 
-.btn:hover,
 nav.paging .prev:hover,
 nav.paging .next:hover,
 article.single .article-controls .prev:hover, 
 article.single .article-controls .next:hover {
+  transition-duration: .2s;
+  background: #7e7e7e;
+  color: #fff;
+}
+
+/* btn
+======================================== */
+
+a.btn:link,
+a.btn:visited {
+  transition-duration: .2s;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+}
+
+.btn:hover {
   transition-duration: .2s;
   background: #7e7e7e;
   color: #fff;
@@ -127,7 +140,7 @@ article.li {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-article.li a {
+article.li a:link {
   position: relative;
   text-decoration: none;
   display: block; 
