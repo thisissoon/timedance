@@ -412,27 +412,6 @@ article.single aside .section {
   margin-bottom: 2rem;
 }
 
-nav.paging {
-  position: relative;
-  min-height: 5rem;
-  margin: 20px 0 60px;
-}
-
-nav.paging a {
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-}
-
-nav.paging .left,
-nav.paging .right {
-  position: absolute;
-}
-
-nav.paging .right {
-  right: 0;
-}
-
 .share a {
   display: inline-block;
 }

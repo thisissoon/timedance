@@ -77,11 +77,11 @@
 
                                 </div>
 
-                                <!-- controls
+                                <!-- controls desktop
                                 ======================================== -->
 
                                 <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
-                                    <div class="article-controls">
+                                    <nav class="paging article-controls">
                                         {{ if .PrevInSection }}
                                             <a href="{{.PrevInSection.Permalink}}">
                                                 <div class="prev">
@@ -98,7 +98,7 @@
                                                 </div>  
                                             </a>
                                         {{ end }}
-                                    </div>
+                                    </nav>
                                 </div>
 
                             </div>
@@ -134,7 +134,7 @@
                                 {{ with .Params.tags }}
                                 <div class="section">
                                     <h4>Tags:</h4>
-                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | lower }}" class="tag">{{ . }}</a></li> {{ end }}</ul>
+                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | lower }}" class="tag">{{ . }}</a>/</li> {{ end }}</ul>
                                 </div>
                                 {{ end }}
 
@@ -143,19 +143,19 @@
                                     <h4>News:</h4>
                                     <ul>
                                         {{ if .Params.newslink01 }}
-                                        <li><a href="{{ .Params.newslink01 }}" class="news">{{ .Params.newstitle01 }}</a></li>
+                                        <li><a href="{{ .Params.newslink01 }}" class="news">{{ .Params.newstitle01 }}</a>/</li>
                                         {{ end }}
 
                                         {{ if .Params.newslink02 }}
-                                        <li><a href="{{ .Params.newslink02 }}" class="news">{{ .Params.newstitle02 }}</a></li>
+                                        <li><a href="{{ .Params.newslink02 }}" class="news">{{ .Params.newstitle02 }}</a>/</li>
                                         {{ end }}
 
                                         {{ if .Params.newslink03 }}
-                                        <li><a href="{{ .Params.newslink03 }}" class="news">{{ .Params.newstitle03 }}</a></li>
+                                        <li><a href="{{ .Params.newslink03 }}" class="news">{{ .Params.newstitle03 }}</a>/</li>
                                         {{ end }}
 
                                         {{ if .Params.newslink04 }}
-                                        <li><a href="{{ .Params.newslink04 }}" class="news">{{ .Params.newstitle04 }}</a></li>
+                                        <li><a href="{{ .Params.newslink04 }}" class="news">{{ .Params.newstitle04 }}</a>/</li>
                                         {{ end }}
                                     </ul>                   
                                 </div>
@@ -171,6 +171,32 @@
                                 <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-facebook"><i class="fa fa-facebook"></i>Facebook</a>
 
                                 <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-twitter"><i class="fa fa-twitter"></i>Twitter</a>
+                            </div>
+
+                            <!-- controls
+                            ======================================== -->
+
+                            <div class="row">
+                                <div class="col-xs-12 hidden-md hidden-lg" class="left">
+                                    <nav class="paging">
+                                        {{ if .PrevInSection }}
+                                            <a href="{{.PrevInSection.Permalink}}">
+                                                <div class="prev">
+                                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M24.19.86H19.95L5.81,15,19.95,29.14h4.24V24.9L14.29,15l9.9-9.9Z" style="fill:#fff"/></svg>
+                                                    <p>Prev</p>
+                                                </div>
+                                            </a>
+                                        {{ end }}
+                                        {{ if .NextInSection }}
+                                            <a href="{{.NextInSection.Permalink}}" class="right">
+                                                <div class="next">
+                                                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><title>-icon-w</title><path d="M10.05.86H5.81V5.1l9.9,9.9-9.9,9.9v4.24h4.24L24.19,15Z" style="fill:#fff"/></svg>
+                                                    <p>Next</p>
+                                                </div>  
+                                            </a>
+                                        {{ end }}
+                                    </nav>
+                                </div>
                             </div>
 
                         </div>

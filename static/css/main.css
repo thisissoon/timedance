@@ -11,12 +11,6 @@ article.release-item {
   background-color: #7e7e7e;
 }
 
-article.single {
-	color: #000;
-	background-color: transparent;
-  padding-bottom: 70px;
-}
-
 .footer-wrapper {
   height: 100%;
   min-height: 100%;
@@ -125,39 +119,6 @@ article.event-item .image {
   text-align: center;
 }
 
-/* pagination
-======================================== */
-
-nav.paging p {
-  color: #7e7e7e;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 5px;
-}
-
-nav.paging .prev,
-nav.paging .next {
-  background: #000;
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-nav.paging .next svg {
-  height: 50px;
-  width: 50px;
-  padding: 10px 8px 10px 12px;
-}
-
-nav.paging .prev svg {
-  height: 50px;
-  width: 50px;
-  padding: 10px 12px 10px 8px;
-}
 
 /* media queries
 ======================================== */
