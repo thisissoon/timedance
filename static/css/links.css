@@ -131,7 +131,7 @@ a.btn:visited {
 /* img-links
 ======================================== */
 
-article.li {
+article.li .image {
   transition-duration: .2s;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
@@ -146,8 +146,8 @@ article.li a:link {
   display: block; 
 }
 
-article:hover,
-article:active {
+article .image:hover,
+article .image:active {
   transition-duration: .2s;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
