@@ -97,8 +97,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <nav>
                                     <ul>
-
-                                        <li><a href="/releases/" class="releases-btn{{ if eq "releases" .Section }} active{{ else if eq "home" .Section }} active{{ end }}">Releases</a></li>
+                                        <li><a href="/releases/" class="releases-btn{{ if eq "releases" .Section }} active{{ else if eq "" .Section }} active{{ end }}">Releases</a></li>
                                         <li><a href="/events/" class="events-btn{{ if eq "events" .Section }} active{{ end }}">Events</a></li>
                                     </ul>
                                 </nav>
