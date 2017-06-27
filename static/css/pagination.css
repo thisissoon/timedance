@@ -4,6 +4,10 @@
 nav.paging {
   position: relative;
   min-height: 5rem;
+  margin: 0 0 60px;
+}
+
+article.single nav.paging {
   margin: 40px 0 60px;
 }
 
