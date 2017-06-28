@@ -179,7 +179,7 @@
                                 {{ with .Params.tags }}
                                 <div class="section">
                                     <h4>Tags:</h4>
-                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | lower }}" class="tag">{{ . }}</a>/</li> {{ end }}</ul>
+                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | urlize }}" class="tag">{{ . }}</a>/</li> {{ end }}</ul>
                                 </div>
                                 {{ end }}
 
