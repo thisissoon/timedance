@@ -10,14 +10,15 @@
         <div class="articles">
           <div class="row">
 
-            <h2 class="article-title">Releases:</h2>
             {{ range (where .Data.Pages "Type" "Releases") }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               {{ .Render "li" }}
             </div>
             {{ end }}
+          </div>
 
-            <h2 class="article-title">Events:</h2>
+          <div class="row">
+
             {{ range (where .Data.Pages "Type" "Events") }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               {{ .Render "li" }}
