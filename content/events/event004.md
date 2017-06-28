@@ -14,7 +14,6 @@ tags = [
 	"Livity Sound",
 	"Timedance",
 	"Opal Tapes",
-	"Timedance",
 	"Hotline" 
 ]
 

@@ -64,13 +64,13 @@ eventTitle01 = "Facebook event"
 eventLink01 = "#"
 
 eventTitle02 = ""
-eventLink02 = "#"
+eventLink02 = ""
 
 eventTitle03 = ""
-eventLink03 = "#"
+eventLink03 = ""
 
 eventTitle04 = ""
-eventLink04 = "#"
+eventLink04 = ""
 
 
 +++
