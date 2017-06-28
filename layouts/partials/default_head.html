@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         {{ .Hugo.Generator }}
 
+        <meta name="description" content="{{ .Params.Description | default .Site.Params.Description }}">
+        <meta name="keywords" content="{{ .Params.Keywords | default .Site.Params.Keywords }}">
+        <meta name="author" content="{{ .Site.Params.Author }}">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -79,9 +83,9 @@
 
                                 <div class="title-wrapper ">
                                     <div class="title">
-                                        <a href="{{ .Site.BaseURL }}">
-                                            <h1>{{ .Site.Title }}<h1>
-                                        </a>
+                                        <h1><a href="{{ .Site.BaseURL }}">
+                                            {{ .Site.Title }}
+                                        </a></h1>
                                     </div>
                                 
                                     <!-- <div class="sub-title">
