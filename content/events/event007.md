@@ -1,6 +1,15 @@
 +++
+
+# Meta description
+description = ""
+
+# Event title
 title = "Timedance w/ A Made Up Sound, Lurka, Batu"
+
+# Event date
 date = "2016-04-02T00:00:01Z"
+
+# Artwork
 image = "events/event007.jpg"
 
 # This renders the correct template i.e. Releases or Events

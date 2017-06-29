@@ -1,5 +1,8 @@
 +++
 
+# Meta description
+description = ""
+
 # Event title
 title = "Timedance w/ Beneath, Batu, Transient"
 

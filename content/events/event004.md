@@ -1,6 +1,15 @@
 +++
+
+# Meta description
+description = ""
+
+# Event title
 title = "Timedance w/ Peverelist, Metrist/L.SAE, Batu"
+
+# Event date
 date = "2015-10-03T00:00:01Z"
+
+# Artwork
 image = "events/event004.jpg"
 
 # This renders the correct template i.e. Releases or Events

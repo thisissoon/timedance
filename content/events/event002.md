@@ -1,6 +1,15 @@
 +++
+
+# Meta description
+description = ""
+
+# Event title
 title = "Timedance w/ Bake"
+
+# Event date
 date = "2015-05-08T00:00:01Z"
+
+# Artwork
 image = "events/event002.jpg"
 
 # This renders the correct template i.e. Releases or Events

@@ -1,6 +1,15 @@
 +++
+
+# Meta description
+description = ""
+
+# Event title
 title = "Timedance w/ Asusu, Nick Craddock, Batu"
+
+# Event date
 date = "2015-07-04T00:00:01Z"
+
+# Artwork
 image = "events/event003.jpg"
 
 # This renders the correct template i.e. Releases or Events
