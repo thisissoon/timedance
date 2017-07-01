@@ -1,10 +1,10 @@
-![Timedance logo](https://github.com/thisissoon/timedance/blob/master/static/svg/timedance-logo.svg "Timedance logo")
+![alt text](https://github.com/thisissoon/timedance/blob/master/static/images/android-chrome-192x192.png "Timedance logo")
 
 # timedancemusic.com
 
 ---
 
-##Quick links
+## Quick links
 
 [Releases](https://github.com/thisissoon/timedance/tree/master/content/releases "Add new release")
 
@@ -14,30 +14,55 @@
 
 [Events (Images)](https://github.com/thisissoon/timedance/tree/master/static/images/events "Add event image")
 
+##Instructions
+
+Download [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
+
+
+### Step 01
+Duplicate template file
+
+Add link
+
+Add link
+
+### Step 02
+Fill in fields
+
+### Step 03
+Upload .md file to relevant folder with a commit message
+
+### Step 04
+Wait few minutes for the new post to appear
+
+### Troubleshooting
+
+Check here [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history")
+
 ---
 
-#Image guidelines
+# Image guidelines
 
 Save each image using the following guidelines
 
-###Releases 
-⋅⋅* Width: 900px 
-⋅⋅* Height: 900px
-⋅⋅* Resolution: 72dpi
-⋅⋅* File format: .jpg
+### Releases 
+* Width: 900px 
+* Height: 900px
+* Resolution: 72dpi
+* File format: .jpg
 
 Do not save for web
 
-###Events
-⋅⋅* Width: 900px 
-⋅⋅* Height: 1273px
-⋅⋅* Resolution: 72dpi
-⋅⋅* File format: .jpg
+### Events
+* Width: 900px 
+* Height: 1273px
+* Resolution: 72dpi
+* File format: .jpg
 
 Do not save for web
 
 
-##Compress
+## Compress
 
 Download [ImageOptim](https://imageoptim.com/mac "ImageOptim")
 
@@ -46,12 +71,16 @@ Important: Before using ImageOptim, make a copy of the original (uncompressed) .
 Example: 
 ![Image folders](https://github.com/thisissoon/timedance/blob/master/static/reference/image-folders.png "Image folders")
 
+ 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-###Settings
 
-⋅⋅* Quality: Enable lossy minification
-⋅⋅* JPEG quality: 80%
-⋅⋅* Optimisation level: Extra
+
+### Settings
+
+* Quality: Enable lossy minification
+* JPEG quality: 80%
+* Optimisation level: Extra
 
 Example: 
 ![ImageOptim preferences](https://github.com/thisissoon/timedance/blob/master/static/reference/image-optim-preferences.png "Image folders")
