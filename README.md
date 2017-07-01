@@ -67,11 +67,7 @@ Download [ImageOptim](https://imageoptim.com/mac "ImageOptim")
 Important: Before using ImageOptim, make a copy of the original (uncompressed) .jpg. Once you run ImageOptim, the file will be overwritten. I suggest keeping two folders – *Uncompressed* images and *Compressed* images.
 
 Example: 
-![Image folders](https://github.com/thisissoon/timedance/blob/master/static/reference/image-folders.png "Image folders")
-
- 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+![Image folders](https://github.com/thisissoon/timedance/blob/master/static/instructions/image-folders.png "Image folders")
 
 
 ### Settings
@@ -81,4 +77,4 @@ Example:
 * Optimisation level: Extra
 
 Example: 
-![ImageOptim preferences](https://github.com/thisissoon/timedance/blob/master/static/reference/image-optim-preferences.png "Image folders")
+![ImageOptim preferences](https://github.com/thisissoon/timedance/blob/master/static/instructions/image-optim-preferences.png "Image folders")
