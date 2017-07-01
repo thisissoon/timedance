@@ -66,8 +66,12 @@ article.single h3.article-price {
 	line-height: 18px;
 }
 
-article.single .article-date {
+article.event-item .article-date {
 	margin: 30px 0 10px;
+}
+
+article.release-item .article-date {
+	margin: 0 0 40px;
 }
 
 article.single h3.article-time,

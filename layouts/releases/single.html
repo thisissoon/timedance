@@ -63,10 +63,7 @@
                                 <div class="col-xs-12 col-md-8">
 
                                     <header class="article-header">
-                                        <!--<time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>-->
                                         
-                                        <!-- <h1 class="article-title">{{ .Title }}</h1> -->
-
                                         <h4>Details</h4>
 
                                         <h2 class="article-artist">{{ .Params.artist }}</h2>
@@ -121,6 +118,10 @@
 
                             <div class="article-body" itemprop="articleBody">
                                 {{ .Content }}
+                            </div>
+
+                            <div class="article-date">
+                                <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">Release date: {{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "2 Jan, 2006" }}{{ end }}</time>
                             </div>
 
                             {{ if .Params.bandcamplink }}

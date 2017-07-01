@@ -66,8 +66,6 @@
 
                                         <h4>Details</h4>
 
-                                        <!-- <h1 class="article-title">{{ .Title }}</h1> -->
-
                                         <!-- guest -->
                                         {{ if .Params.guestname01 }}
                                         <h2 class="article-guest">{{ .Params.guestname01 }}</h2>
@@ -113,7 +111,7 @@
                                         {{ end }}
 
                                         <div class="article-date">
-                                            <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">Date: {{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+                                            <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">Date: {{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, 2 Jan, 2006" }}{{ end }}</time>
                                         </div>
 
                                         <h3 class="article-time">Time: {{ .Params.time }}</h3>
