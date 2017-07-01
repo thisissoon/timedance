@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,25 +9,28 @@ title = "Timedance007 – Laksa"
 # Release date
 date = "2016-12-09T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-007.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Laksa", 
 	"Techno"
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Laksa"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. Contrasts",
 	"2. Lost Code",
@@ -39,7 +42,7 @@ bandcampTrack = "3080197816"
 bandcampLink = "http://timedance.bandcamp.com/album/contrasts"
 bandcampTitle = "Contrasts by Laksa"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

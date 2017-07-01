@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Event title
@@ -9,13 +9,13 @@ title = "Timedance w/ A Made Up Sound, Lurka, Batu"
 # Event date
 date = "2016-04-02T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "events/timedance-event-007.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"A Made Up Sound", 
 	"2562",
@@ -25,13 +25,13 @@ tags = [
 	"Timedance" 
 ]
 
-# Any categories
+# Any categories (currently not in use)
 categories = [
   "Events",
   "Timedance"
 ]
 
-# Provide guest name and labels
+# Guest names and labels
 guestName01 = "A Made Up Sound"
 
 guestLabels01 = [

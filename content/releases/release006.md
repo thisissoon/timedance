@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,25 +9,28 @@ title = "Timedance006 – Bruce"
 # Release date
 date = "2016-09-30T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-006.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Bruce", 
 	"Techno"
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Bruce"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. I'm Alright Mate",
 	"2. Post Rave Wrestle"
@@ -38,7 +41,7 @@ bandcampTrack = "2775519386"
 bandcampLink = "http://timedance.bandcamp.com/album/im-alright-mate-post-rave-wrestle"
 bandcampTitle = "I&#39;m Alright Mate / Post Rave Wrestle by Bruce"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

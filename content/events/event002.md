@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Event title
@@ -9,26 +9,26 @@ title = "Timedance w/ Bake"
 # Event date
 date = "2015-05-08T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "events/timedance-event-002.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Bake", 
 	"All Caps",
 	"Rinse FM" 
 ]
 
-# Any categories
+# Any categories (currently not in use)
 categories = [
   "Events",
   "Timedance"
 ]
 
-# Provide guest name and labels
+# Guest names and labels
 guestName01 = "Bake"
 
 guestLabels01 = [

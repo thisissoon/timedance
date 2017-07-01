@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,13 +9,13 @@ title = "Timedance009 – Remixes 1"
 # Release date
 date = "2017-06-09T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-009.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [
 	"Lurka", 
 	"Bruce",
@@ -26,13 +26,16 @@ tags = [
 	"Techno"
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Remixes 1"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. Lurka – Beater (Stenny Remix)",
 	"2. Bruce – I'm Alright Mate (Asusu Remix)",
@@ -44,7 +47,7 @@ bandcampTrack = "4183820054"
 bandcampLink = "http://timedance.bandcamp.com/album/remixes-1"
 bandcampTitle = "Remixes - 1 by Lurka / Bruce"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

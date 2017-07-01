@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,25 +9,28 @@ title = "Timedance003 – Batu"
 # Release date
 date = "2016-03-11T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-003.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Batu", 
 	"Techno"
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Batu"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. Monolith",
 	"2. Reez",
@@ -40,7 +43,7 @@ bandcampTrack = "3076518515"
 bandcampLink = "http://timedance.bandcamp.com/album/monolith-ep"
 bandcampTitle = "Monolith EP by Batu"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

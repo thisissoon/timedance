@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,25 +9,28 @@ title = "Timedance010 – Ploy"
 # Release date
 date = "2017-07-14T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-010.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Ploy", 
 	"Techno"
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Ploy"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. Intrigued By The Drum",
 	"2. Zoom",
@@ -40,7 +43,7 @@ bandcampTrack = ""
 bandcampLink = ""
 bandcampTitle = ""
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

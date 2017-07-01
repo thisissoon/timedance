@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Event title
@@ -9,13 +9,13 @@ title = "Timedance w/ Beneath, Batu, Transient"
 # Event date
 date = "2015-02-20T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "events/timedance-event-001.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Beneath", 
 	"Batu",
@@ -28,13 +28,13 @@ tags = [
 	"Tape-Echo" 
 ]
 
-# Any categories
+# Any categories (currently not in use)
 categories = [
   "Events",
   "Timedance"
 ]
 
-# Provide guest name and labels
+# Guest names and labels
 guestName01 = "Beneath"
 
 guestLabels01 = [
@@ -76,7 +76,7 @@ entryPrice = "£5"
 # Link to tickets e.g. RA, Crack 
 tickets = "https://www.residentadvisor.net/event.aspx?679740"
 
-# Any news relating to this event should go here. Be sure to provide a title and link
+# Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
 eventLink01 = "#"
 

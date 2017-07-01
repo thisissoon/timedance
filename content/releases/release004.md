@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Release title
@@ -9,25 +9,28 @@ title = "Timedance004 – Lurka"
 # Release date
 date = "2016-05-27T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "releases/timedance-release-004.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Lurka",
 	"Techno" 
 ]
 
-# Any categories
-categories = [ "Release", "Timedance" ]
+# Any categories (currently not in use)
+categories = [ 
+	"Release", 
+	"Timedance" 
+]
 
-# Provide artist name
+# Artist name
 artist = "Lurka"
 
-# Include track names
+# Track names (comma-separated)
 tracks = [
 	"1. Beater",
 	"2. Density"
@@ -38,7 +41,7 @@ bandcampTrack = "3940198532"
 bandcampLink = "http://timedance.bandcamp.com/album/beater-density"
 bandcampTitle = "Beater / Density by Lurka"
 
-# Any news relating to this release should go here. Be sure to provide a title and link
+# Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 

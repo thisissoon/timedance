@@ -1,6 +1,6 @@
 +++
 
-# Meta description
+# Custom meta description (this will override default meta description)
 description = ""
 
 # Event title
@@ -9,13 +9,13 @@ title = "Timedance w/ Asusu, Nick Craddock, Batu"
 # Event date
 date = "2015-07-04T00:00:01Z"
 
-# Artwork
+# Artwork (see image guidelines)
 image = "events/timedance-event-003.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
-# Any tags
+# Any tags (comma-separated)
 tags = [ 
 	"Asusu", 
 	"Nick Craddock",
@@ -27,13 +27,13 @@ tags = [
 	"Hotline" 
 ]
 
-# Any categories
+# Any categories (currently not in use)
 categories = [
   "Events",
   "Timedance"
 ]
 
-# Provide guest name and labels
+# Guest names and labels
 guestName01 = "Asusu"
 
 guestLabels01 = [
