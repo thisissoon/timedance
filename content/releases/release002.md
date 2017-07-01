@@ -10,7 +10,7 @@ title = "Timedance002 – L.SAE"
 date = "2015-09-11T00:00:01Z"
 
 # Artwork
-image = "releases/release002.jpg"
+image = "releases/timedance-release-002.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"

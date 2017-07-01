@@ -10,7 +10,7 @@ title = "Timedance w/ A Made Up Sound, Lurka, Batu"
 date = "2016-04-02T00:00:01Z"
 
 # Artwork
-image = "events/event007.jpg"
+image = "events/timedance-event-007.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
