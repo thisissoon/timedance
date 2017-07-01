@@ -2,7 +2,6 @@
 
 # timedancemusic.com
 
----
 
 ## Quick links
 
@@ -14,7 +13,7 @@
 
 [Events (Images)](https://github.com/thisissoon/timedance/tree/master/static/images/events "Add event image")
 
-##Instructions
+## Instructions
 
 Download [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
 
@@ -39,7 +38,6 @@ Wait few minutes for the new post to appear
 
 Check here [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history")
 
----
 
 # Image guidelines
 
