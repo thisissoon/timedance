@@ -15,28 +15,36 @@
 
 ## Instructions
 
-Download [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
+Download [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2") to edit
 
 
 ### Step 01
-Duplicate template file
+Duplicate and rename template file
 
-Add link
+[Release template](https://github.com/thisissoon/timedance/blob/master/content/events/release-template.md "Add new release")
 
-Add link
+*e.g. release010.md*
+
+[Event template](https://github.com/thisissoon/timedance/blob/master/content/events/event-template.md "Add new event")
+
+*e.g. event010.md*
 
 ### Step 02
-Fill in fields
+
+Edit fields
+
+Add image
 
 ### Step 03
-Upload .md file to relevant folder with a commit message
+
+Remove *draft = true* and upload new release/event markdown (.md) file to the relevant folder. Be sure to write a commit message.
 
 ### Step 04
-Wait few minutes for the new post to appear
+Wait few minutes for the site to regenerate and your new post to appear.
 
 ### Troubleshooting
 
-Check here [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history")
+Check [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history")
 
 
 # Image guidelines
@@ -48,16 +56,18 @@ Save each image using the following guidelines
 * Height: 900px
 * Resolution: 72dpi
 * File format: .jpg
+* Colour setting: sRGB
 
-Do not save for web
+*Do not save for web*
 
 ### Events
 * Width: 900px 
 * Height: 1273px
 * Resolution: 72dpi
 * File format: .jpg
+* Colour setting: sRGB
 
-Do not save for web
+*Do not save for web*
 
 
 ## Compress
