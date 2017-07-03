@@ -18,36 +18,53 @@ This is a welcome message...
 
 Download: [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
 
-Use is to edit the markdown (.md) files
+Use Sublime Text to edit markdown (.md) files
 
 ## Step 01
 Duplicate and rename template file
 
 [Release template](https://github.com/thisissoon/timedance/blob/master/content/events/release-template.md "Add new release")
-
 *e.g. release010.md*
 
 [Event template](https://github.com/thisissoon/timedance/blob/master/content/events/event-template.md "Add new event")
-
 *e.g. event010.md*
 
 ## Step 02
 
 Edit fields
 
-Add image
+Example: 
+![Image folders](https://github.com/thisissoon/timedance/blob/master/static/images/instructions/markdown-example.jpg "Markdown examples")
 
 ## Step 03
 
-Remove *draft = true* and upload new release/event markdown (.md) file to the relevant folder. Be sure to write a commit message.
+Upload new release (.md) here: [Releases](https://github.com/thisissoon/timedance/tree/master/content/releases "Add new release")
+
+Upload new event (.md) here: [Events](https://github.com/thisissoon/timedance/tree/master/content/events "Add new event")
+
+Be sure to write a [commit message](https://github.com/erlang/otp/wiki/Writing-good-commit-messages "Writing good commit messages")
 
 ## Step 04
-Wait few minutes for the site to regenerate and your new post to appear.
+
+Upload a release image here: [Release images](https://github.com/thisissoon/timedance/tree/master/static/images/releases "Add release image")
+
+Upload an event image here: [Event images](https://github.com/thisissoon/timedance/tree/master/static/images/events "Add event image")
+
+## Step 05
+
+Check that all the details you've entered are correct.
+
+## Step 06
+
+Edit 'draft = false' to 'draft = true'
+
+## Step 07
+
+Wait a few minutes for the site to regenerate and your new post to appear.
 
 ## Troubleshooting
 
-Check [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history")
-
+If your post dosen't appear, check your [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history"). It will likely be a formatting issue e.g. a missing comma
 
 # Image guidelines
 
@@ -79,7 +96,7 @@ Download: [ImageOptim](https://imageoptim.com/mac "ImageOptim")
 Important: Before using ImageOptim, make a copy of the original (uncompressed) .jpg. Once you run ImageOptim, the file will be overwritten. I suggest keeping two folders – *Uncompressed* images and *Compressed* images.
 
 Example: 
-![Image folders](https://github.com/thisissoon/timedance/blob/master/static/images/instructions/image-folders.png "Image folders")
+![Image folders](https://github.com/thisissoon/timedance/blob/master/static/images/instructions/image-folders.jpg "Image folders")
 
 
 ### Settings
@@ -89,4 +106,4 @@ Example:
 * Optimisation level: Extra
 
 Example: 
-![ImageOptim preferences](https://github.com/thisissoon/timedance/blob/master/static/images/instructions/image-optim-preferences.png "Image folders")
+![ImageOptim preferences](https://github.com/thisissoon/timedance/blob/master/static/images/instructions/image-optim-preferences.jpg "Image folders")
