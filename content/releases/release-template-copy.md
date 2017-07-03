@@ -1,6 +1,6 @@
 +++
 
-draft = true
+draft = false
 
 # Custom meta description (this will override default meta description)
 description = ""
