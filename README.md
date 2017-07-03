@@ -21,7 +21,7 @@ Download: [Sublime Text 2](http://www.sublimetext.com/2 "Sublime Text 2")
 Use Sublime Text to edit markdown (.md) files
 
 ## Step 01
-Duplicate and rename template file e.g. *release010.md*/*event010.md* and open in Sublime Text.
+Duplicate and rename template file *e.g. release010.md / event010.md* and open in Sublime Text.
 
 ## Step 02
 
@@ -55,7 +55,7 @@ Once you are happy and you've checked there are no mistakes, go to your post on 
 
 Wait a few minutes for the site to regenerate and your new post to appear.
 
-## Troubleshooting
+# Troubleshooting
 
 If your post doesn't appear, check your [Commits](https://github.com/thisissoon/timedance/commits/master "Commit history"). It will likely be a formatting issue e.g. a missing comma.
 
