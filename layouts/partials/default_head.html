@@ -39,13 +39,13 @@
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="{{ .Site.Params.twitter_handle }}">
-        <meta name="twitter:title" content="{{ if ne .Title "" }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+        <meta name="twitter:title" content="{{ if eq .Title "Timedance" }}Releases | {{ else if ne .Title "" }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
         <meta name="twitter:description" content="{{ .Params.Description | default .Site.Params.Description }}">
         <meta name="twitter:creator" content="{{ .Site.Params.twitter_handle }}">
         <meta name="twitter:image" content="{{ $.Site.BaseURL }}images/{{ .Params.image | default .Site.Params.meta_image }}">
 
         <!-- Open Graph data -->
-        <meta property="og:title" content="{{ if ne .Title "" }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+        <meta property="og:title" content="{{ if eq .Title "Timedance" }}Releases | {{ else if ne .Title "" }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
         <meta property="og:type" content="article">
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:image" content="{{ $.Site.BaseURL }}images/{{ .Params.image | default .Site.Params.meta_image }}">
