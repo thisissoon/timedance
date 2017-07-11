@@ -61,7 +61,7 @@ guestLabels04 = [
 time = "23:00 – 06:00"
 
 # Venue details
-venueName = "Hope Works"
+venueName = "Hope Works, Sheffield"
 venueAddress = ""
 
 # Entry price
