@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Event title
-title = "Oxford - Objekt, Batu, Katiusha"
+title = "8th December 2015 - Oxford - Objekt, Batu, Katiusha"
 
 # Event date
 date = "2015-12-05T00:00:01Z"
@@ -25,7 +25,8 @@ tags = [
 	"Katuisha",
 	"Pan",
 	"Timedance",
-	"EDMS" 
+	"EDMS",
+	"Turf",
 ]
 
 # Any categories (currently not in use)
