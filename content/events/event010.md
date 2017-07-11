@@ -38,28 +38,24 @@ categories = [
 guestName01 = "Batu"
 
 guestLabels01 = [
-	"Timedance"
-]
+	"Timedance"]
 
 guestName02 = "Ploy"
 
 guestLabels02 = [
 	"Timedance",
-	"Hessle Audio"
-]
+	"Hessle Audio"]
 
 guestName03 = "Lurka"
 
 guestLabels03 = [
 	"Timedance",
-	"Hotline Recordings"
-]
+	"Hotline Recordings"]
 
 guestName04 = "Lo Shea"
 
 guestLabels04 = [
-	"Hope Works",
-]
+	"Hope Works"]
 
 # Time
 time = "23:00 – 06:00"
