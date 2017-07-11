@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Event title
-title = "Timedance w/ Beneath, Batu, Transient"
+title = "Beneath, Batu, Transient"
 
 # Event date
 date = "2015-02-20T00:00:01Z"
