@@ -7,13 +7,13 @@ draft = false
 description = ""
 
 # Release title
-title = "Batu - Murmur [Timedance008]"
+title = "Batu - Monolith [Timedance003]"
 
 # Release date
-date = "2017-02-17T00:00:01Z"
+date = "2016-03-11T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-release-008.jpg"
+image = "releases/timedance-003-batu.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
@@ -35,15 +35,16 @@ artist = "Batu"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Murmur",
-	"2. Groundwork",
-	"3. Whisper"
+	"1. Monolith",
+	"2. Reez",
+	"3. Void",
+	"4. Reez (Lee Gamble 3rd Rail Deconstruction)"
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "2230210641"
-bandcampLink = "http://timedance.bandcamp.com/album/murmur"
-bandcampTitle = "Murmur by Batu"
+bandcampTrack = "3076518515"
+bandcampLink = "http://timedance.bandcamp.com/album/monolith-ep"
+bandcampTitle = "Monolith EP by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
@@ -61,4 +62,4 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels – artwork by Guillaume de Ubéda 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker.

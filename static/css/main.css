@@ -1,10 +1,21 @@
-/* main.css
+`/* main.css
 ======================================== */
+
+.container-fluid {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .list .site,
 .single .site,
 .index .site {
-  margin-top: -50px;
+  /*margin-top: -50px;*/
+}
+
+.single .site {
+  margin-top: 40px;
 }
 
 .footer-wrapper {
@@ -19,7 +30,8 @@
   min-height: 100%;
   z-index: 100;
   margin-bottom: 400px;
-  background: #f1f1f1 url("../images/noise-v1.jpg") repeat;
+  background-color: #fafafa;
+  /*background: #f1f1f1 url("../images/noise-v1.jpg") repeat;*/
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
@@ -57,26 +69,29 @@
 ======================================== */
 
 article.li {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   background-color: transparent;
 }
 
 article.li h2 {
-  color: #7e7e7e;
+  color: #000;
   font-size: 15px;
   font-weight: normal;
   line-height: 18px;
-  margin-bottom: 60px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #7e7e7e;
+  margin-top: 10px; 
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  /*padding-left: 5px;*/
+  /*border-left: 1px solid #000;*/
 }
 
 /* releases
 ======================================== */
 
 article.release-item .image {
+  height: 100%;
 	background-color: #cccccc;
-	padding-bottom: 100%;
+	/*padding-bottom: 100%;*/
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,8 +110,9 @@ article.single .image {
 ======================================== */
 
 article.event-item .image {
+  height: 100%;
   background-color: #cccccc;
-  padding-bottom: 141.41%;
+  /*padding-bottom: 141.41%;*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,6 +158,17 @@ article.event-item .image {
 
 @media (min-width: 320px) {
 
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .single .site {
+    margin-top: 0;
+  }
+
   .wrapper {
     margin-bottom: -50px;
   }
@@ -153,12 +180,33 @@ article.event-item .image {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  
+  .container-fluid {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .single .site {
+    margin-top: 20px;
+  }
+
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .container-fluid {
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .single .site {
+    margin-top: 40px;
+  }
 
   .wrapper {
     margin-bottom: 350px;

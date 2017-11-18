@@ -7,25 +7,25 @@ draft = false
 description = ""
 
 # Event title
-title = "17th September 2016 - Tessela, Beatrice Dillon"
+title = "2nd April 2016 - A Made Up Sound, Lurka, Batu"
 
 # Event date
-date = "2016-09-17T00:00:01Z"
+date = "2016-04-02T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-009.jpg"
+image = "events/timedance-event-007-a-made-up-sound-lurka-batu.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Tessela", 
-	"Beatrice Dillon",
-	"Poly Kicks",
-	"R&S",
-	"Alien Jams",
-	"Where To Now" 
+	"A Made Up Sound", 
+	"2562",
+	"Lurka",
+	"Hotline",
+	"Batu",
+	"Timedance" 
 ]
 
 # Any categories (currently not in use)
@@ -35,25 +35,22 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Tessela"
+guestName01 = "A Made Up Sound"
 
 guestLabels01 = [
-	"Poly Kicks",
-	"R&S"
+	"2562 (NL)"
 ]
 
-guestName02 = "Beatrice Dillon"
+guestName02 = "Lurka"
 
 guestLabels02 = [
-	"Alien Jams",
-	"Where To Now"
+	"Hotline"
 ]
 
-guestName03 = ""
+guestName03 = "Batu"
 
 guestLabels03 = [
-	"Label 01",
-	"Label 02"
+	"Timedance"
 ]
 
 guestName04 = ""
@@ -74,11 +71,11 @@ venueAddress = "Address"
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?873622"
+tickets = "https://www.residentadvisor.net/event.aspx?819628"
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"
-eventLink01 = ""
+eventLink01 = "#"
 
 eventTitle02 = ""
 eventLink02 = ""

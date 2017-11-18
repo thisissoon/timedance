@@ -7,22 +7,25 @@ draft = false
 description = ""
 
 # Event title
-title = "2nd July 2016 - Pangaea, Ploy"
+title = "17th September 2016 - Tessela, Beatrice Dillon"
 
 # Event date
-date = "2016-07-02T00:00:01Z"
+date = "2016-09-17T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-008.jpg"
+image = "events/timedance-event-009-tessela-beatrice-dillon.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Pangaea", 
-	"Ploy",
-	"Hessle Audio" 
+	"Tessela", 
+	"Beatrice Dillon",
+	"Poly Kicks",
+	"R&S",
+	"Alien Jams",
+	"Where To Now" 
 ]
 
 # Any categories (currently not in use)
@@ -32,16 +35,18 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Pangaea"
+guestName01 = "Tessela"
 
 guestLabels01 = [
-	"Hessle Audio"
+	"Poly Kicks",
+	"R&S"
 ]
 
-guestName02 = "Ploy"
+guestName02 = "Beatrice Dillon"
 
 guestLabels02 = [
-	"Hessle Audio"
+	"Alien Jams",
+	"Where To Now"
 ]
 
 guestName03 = ""
@@ -69,11 +74,11 @@ venueAddress = "Address"
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = ""
+tickets = "https://www.residentadvisor.net/event.aspx?873622"
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"
-eventLink01 = "#"
+eventLink01 = ""
 
 eventTitle02 = ""
 eventLink02 = ""

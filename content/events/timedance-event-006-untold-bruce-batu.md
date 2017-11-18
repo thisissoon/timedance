@@ -7,22 +7,25 @@ draft = false
 description = ""
 
 # Event title
-title = "8th May 2015 - Bake"
+title = "6th February 2016 - Untold, Bruce, Batu"
 
 # Event date
-date = "2015-05-08T00:00:01Z"
+date = "2016-02-06T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-002.jpg"
+image = "events/timedance-event-006-untold-bruce-batu.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Bake", 
-	"All Caps",
-	"Rinse FM" 
+	"Untold", 
+	"Bruce",
+	"Batu",
+	"Hemlock",
+	"Hessle Audio",
+	"Timedance" 
 ]
 
 # Any categories (currently not in use)
@@ -32,25 +35,22 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Bake"
+guestName01 = "Untold"
 
 guestLabels01 = [
-	"All Caps",
-	"Rinse FM"
+	"Hemlock"
 ]
 
-guestName02 = ""
+guestName02 = "Bruce"
 
 guestLabels02 = [
-	"Label 01",
-	"Label 02"
+	"Hessle Audio"
 ]
 
-guestName03 = ""
+guestName03 = "Batu"
 
 guestLabels03 = [
-	"Label 01",
-	"Label 02"
+	"Timedance"
 ]
 
 guestName04 = ""
@@ -64,14 +64,14 @@ guestLabels04 = [
 time = "22:00 – 04:00"
 
 # Venue details
-venueName = "The Island"
-venueAddress = "Nelson Street, Bristol. BS1 2LE"
+venueName = "Venue name"
+venueAddress = "Address"
 
 # Entry price
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?711419"
+tickets = ""
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"

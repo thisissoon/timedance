@@ -40,12 +40,12 @@ footer.site .credits {
 }
 
 footer.site .credits p {
-	color: #7e7e7e;
+	color: #000;
 }
 
 footer.site .credits a:link,
 footer.site .credits a:visited {
-	color: #7e7e7e;
+	color: #000;
 	text-decoration: underline; 
 }
 

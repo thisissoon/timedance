@@ -7,20 +7,20 @@ draft = false
 description = ""
 
 # Release title
-title = "Batu - Monolith [Timedance003]"
+title = "Ploy - Iron Lungs [Timedance005]"
 
 # Release date
-date = "2016-03-11T00:00:01Z"
+date = "2016-07-29T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-release-003.jpg"
+image = "releases/timedance-005-ploy.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Batu", 
+	"Ploy",
 	"Techno"
 ]
 
@@ -31,35 +31,34 @@ categories = [
 ]
 
 # Artist name
-artist = "Batu"
+artist = "Ploy"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Monolith",
-	"2. Reez",
-	"3. Void",
-	"4. Reez (Lee Gamble 3rd Rail Deconstruction)"
+	"1. Iron Lungs",
+	"2. Number 24",
+	"3. Footprints In Solid Rock"
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "3076518515"
-bandcampLink = "http://timedance.bandcamp.com/album/monolith-ep"
-bandcampTitle = "Monolith EP by Batu"
+bandcampTrack = "1074533180"
+bandcampLink = "http://timedance.bandcamp.com/album/iron-lungs-ep"
+bandcampTitle = "Iron Lungs EP by Ploy"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
 newsLink01 = ""
 
 newsTitle02 = ""
-newsLink02 = ""
+newsLink02 = "#"
 
 newsTitle03 = ""
-newsLink03 = ""
+newsLink03 = "#"
 
 newsTitle04 = ""
-newsLink04 = ""
+newsLink04 = "#"
 
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker.
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Danielle Doobay 

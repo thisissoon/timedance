@@ -7,28 +7,22 @@ draft = false
 description = ""
 
 # Event title
-title = "20 February 2015 - Beneath, Batu, Transient"
+title = "8th May 2015 - Bake"
 
 # Event date
-date = "2015-02-20T00:00:01Z"
+date = "2015-05-08T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-001.jpg"
+image = "events/timedance-event-002-bake.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Beneath", 
-	"Batu",
-	"Transient",
-	"Berceuse Heroique",
-	"Pan",
-	"NoSymbols",
-	"Timedance",
-	"dnuoS ytiviL",
-	"Tape-Echo" 
+	"Bake", 
+	"All Caps",
+	"Rinse FM" 
 ]
 
 # Any categories (currently not in use)
@@ -38,25 +32,25 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Beneath"
+guestName01 = "Bake"
 
 guestLabels01 = [
-	"Berceuse Heroique",
-	"Pan",
-	"NoSymbols"
+	"All Caps",
+	"Rinse FM"
 ]
 
-guestName02 = "Batu"
+guestName02 = ""
 
 guestLabels02 = [
-	"Timedance",
-	"dnuoS ytiviL"
+	"Label 01",
+	"Label 02"
 ]
 
-guestName03 = "Transient"
+guestName03 = ""
 
 guestLabels03 = [
-	"Tape-Echo"
+	"Label 01",
+	"Label 02"
 ]
 
 guestName04 = ""
@@ -70,23 +64,23 @@ guestLabels04 = [
 time = "22:00 – 04:00"
 
 # Venue details
-venueName = "Cavern Club"
-venueAddress = "10, All Saints Lane, Bristol, BS1 1JH"
+venueName = "The Island"
+venueAddress = "Nelson Street, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?679740"
+tickets = "https://www.residentadvisor.net/event.aspx?711419"
 
-# Any links relating to this release e.g. Facebook event page. Provide a title and link
+# Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"
 eventLink01 = "#"
 
-eventTitle02 = "RA event"
+eventTitle02 = ""
 eventLink02 = ""
 
-eventTitle03 = "Mix"
+eventTitle03 = ""
 eventLink03 = ""
 
 eventTitle04 = ""

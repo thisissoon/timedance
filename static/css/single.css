@@ -8,7 +8,7 @@ article.single {
 }
 
 article.single .article-header {
-	padding: 85px 0 30px;
+	padding: 0;
 }
 
 article.single .events {
@@ -57,6 +57,7 @@ article.single .article-guest-labels li {
 	line-height: 18px;
 }
 
+article.single h3.article-date,
 article.single h3.article-time,
 article.single h3.article-venue,
 article.single h3.article-venue-address,
@@ -66,13 +67,11 @@ article.single h3.article-price {
 	line-height: 18px;
 }
 
-article.event-item .article-date {
-	margin: 30px 0 10px;
+article.single h3.article-date {
+	margin: 0 0 10px;
+	/*border-top: 1px solid #f1f1f1;*/
 }
 
-article.release-item .article-date {
-	margin: 0 0 40px;
-}
 
 article.single h3.article-time,
 article.single h3.article-venue,
@@ -82,15 +81,21 @@ article.single h3.article-price {
 }
 
 
+article.single hr {
+	margin: 40px 0 30px;
+	border-top: 1px solid #f1f1f1;
+}
+
+
 /* 
 ======================================== */
 
 article.single .article-body {
-	padding: 20px 0 20px;
+	padding: 0 0 20px;
 }
 
 article.single .article-body p {    
-    margin: 10px 0;
+    margin: 0;
 }
 
 
@@ -98,16 +103,16 @@ article.single .article-body p {
 ======================================== */
 
 .article-cta {
-	margin: 0 0 60px;
+	margin: 30px 0 0;
 }
 
 /* aside
 ======================================== */
 
 article.single aside {
-	padding: 30px 0 10px;
-	border-top: 1px solid #7e7e7e;
-	border-bottom: 1px solid #7e7e7e;
+	padding: 0;
+	/*border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;*/
 }
 
 article.single aside .section {
@@ -121,7 +126,7 @@ article.single h4 {
 	font-size: 15px;
 	font-weight: normal;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 article.single aside ul {
@@ -141,7 +146,7 @@ article.single .article-share .fa {
 }
 
 article.single .article-share {
-	padding: 30px 0 10px;
+	padding: 0 0 10px;
 }
 
 /* 
@@ -154,7 +159,7 @@ article.single .article-share {
 	}
 
 	article.single .article-header {
-		padding: 45px 0 30px;
+		padding: 45px 0 0;
 	}
 
 	article.single .article-body {
@@ -179,7 +184,7 @@ article.single .article-share {
 	}
 
 	article.single .article-header {
-		padding: 85px 0 30px;
+		padding: 0;
 	}
 
 }

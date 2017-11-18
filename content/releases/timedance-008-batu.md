@@ -7,21 +7,21 @@ draft = false
 description = ""
 
 # Release title
-title = "Lurka - Beater / Density [Timedance004]"
+title = "Batu - Murmur [Timedance008]"
 
 # Release date
-date = "2016-05-27T00:00:01Z"
+date = "2017-02-17T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-release-004.jpg"
+image = "releases/timedance-008-batu.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Lurka",
-	"Techno" 
+	"Batu", 
+	"Techno"
 ]
 
 # Any categories (currently not in use)
@@ -31,18 +31,19 @@ categories = [
 ]
 
 # Artist name
-artist = "Lurka"
+artist = "Batu"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Beater",
-	"2. Density"
+	"1. Murmur",
+	"2. Groundwork",
+	"3. Whisper"
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "3940198532"
-bandcampLink = "http://timedance.bandcamp.com/album/beater-density"
-bandcampTitle = "Beater / Density by Lurka"
+bandcampTrack = "2230210641"
+bandcampLink = "http://timedance.bandcamp.com/album/murmur"
+bandcampTitle = "Murmur by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
@@ -60,4 +61,4 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - painting by Bruce. 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels – artwork by Guillaume de Ubéda 

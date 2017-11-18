@@ -7,25 +7,22 @@ draft = false
 description = ""
 
 # Event title
-title = "2nd April 2016 - A Made Up Sound, Lurka, Batu"
+title = "2nd July 2016 - Pangaea, Ploy"
 
 # Event date
-date = "2016-04-02T00:00:01Z"
+date = "2016-07-02T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-007.jpg"
+image = "events/timedance-event-008-pangaea-ploy.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"A Made Up Sound", 
-	"2562",
-	"Lurka",
-	"Hotline",
-	"Batu",
-	"Timedance" 
+	"Pangaea", 
+	"Ploy",
+	"Hessle Audio" 
 ]
 
 # Any categories (currently not in use)
@@ -35,22 +32,23 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "A Made Up Sound"
+guestName01 = "Pangaea"
 
 guestLabels01 = [
-	"2562 (NL)"
+	"Hessle Audio"
 ]
 
-guestName02 = "Lurka"
+guestName02 = "Ploy"
 
 guestLabels02 = [
-	"Hotline"
+	"Hessle Audio"
 ]
 
-guestName03 = "Batu"
+guestName03 = ""
 
 guestLabels03 = [
-	"Timedance"
+	"Label 01",
+	"Label 02"
 ]
 
 guestName04 = ""
@@ -71,7 +69,7 @@ venueAddress = "Address"
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?819628"
+tickets = ""
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"

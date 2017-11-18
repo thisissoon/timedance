@@ -2,9 +2,9 @@
 ======================================== */
 
 header.site {
-  padding: 50px 0 100px;
+  padding: 50px 0;
   text-align: center;
-  background-color: #fff;
+  background-color: #fafafa;
   margin-bottom: 0;
 }
 
@@ -31,12 +31,12 @@ header.site .title h1 {
   color: #000;
 }
 
-header.site .sub-title h2 {
+/*header.site .sub-title h2 {
   font-size: 15px;
   font-weight: normal;
   text-align: left;
   color: #7e7e7e;
-}
+}*/
 
 /* 
 ======================================== */

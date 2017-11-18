@@ -7,21 +7,21 @@ draft = false
 description = ""
 
 # Release title
-title = "Laksa - Contrasts [Timedance006]"
+title = "Lurka - Beater / Density [Timedance004]"
 
 # Release date
-date = "2016-12-09T00:00:01Z"
+date = "2016-05-27T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-release-007.jpg"
+image = "releases/timedance-004-lurka.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Laksa", 
-	"Techno"
+	"Lurka",
+	"Techno" 
 ]
 
 # Any categories (currently not in use)
@@ -31,19 +31,18 @@ categories = [
 ]
 
 # Artist name
-artist = "Laksa"
+artist = "Lurka"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Contrasts",
-	"2. Lost Code",
-	"3. Buried"
+	"1. Beater",
+	"2. Density"
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "3080197816"
-bandcampLink = "http://timedance.bandcamp.com/album/contrasts"
-bandcampTitle = "Contrasts by Laksa"
+bandcampTrack = "3940198532"
+bandcampLink = "http://timedance.bandcamp.com/album/beater-density"
+bandcampTitle = "Beater / Density by Lurka"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
@@ -61,4 +60,4 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - artwork by Harry Butt 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - painting by Bruce. 

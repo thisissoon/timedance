@@ -6,7 +6,9 @@
 			<div class="text-overlay">{{ .Title }}</div>
 		</div> -->
 
-		<div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
+		<div class="image">
+			<img src="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Poster: {{ .Title }}">
+		</div>
 	</a>
 
     <h2 class="title">{{ .Title }}</h2>
