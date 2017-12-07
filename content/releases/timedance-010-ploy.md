@@ -39,10 +39,13 @@ tracks = [
 	"2. Zoom",
 	"3. Blow Poke",
 	"4. Bad Seed"
+	
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "222732918" bandcampLink = "https://timedance.bandcamp.com/album/celebrate-the-last-30-years-of-human-ego-iftloyl" bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
+bandcampTrack = "222732918" 
+bandcampLink = "https://timedance.bandcamp.com/album/celebrate-the-last-30-years-of-human-ego-iftloyl" 
+bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
