@@ -13,7 +13,7 @@ title = "Giant Swan - Celebrate The Last 30 Years Of Human Ego / IFTLOYL [Timeda
 date = "2017-10-27T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-012-Giant.jpg"
+image = "releases/Timedance012 digi.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
