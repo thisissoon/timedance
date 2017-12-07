@@ -42,9 +42,9 @@ tracks = [
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = ""
-bandcampLink = ""
-bandcampTitle = ""
+bandcampTrack = "2127966538"
+bandcampLink = "https://timedance.bandcamp.com/album/intrigued-by-the-drum"
+bandcampTitle = "Intrigued By The Drum"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
