@@ -44,9 +44,9 @@ tracks = [
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = ""
-bandcampLink = ""
-bandcampTitle = ""
+bandcampTrack = "3919014247"
+bandcampLink = "https://timedance.bandcamp.com/album/remixes-2"
+bandcampTitle = "Remixes - 2"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
