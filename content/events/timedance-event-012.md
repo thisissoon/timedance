@@ -1,7 +1,7 @@
 +++
 
 # true equals unpublished and will not be seen, false equals published and will be seen
-draft = true
+draft = false
 
 # Custom meta description (this will override default meta description)
 description = ""
@@ -13,7 +13,7 @@ title = "27th - January 2017 - Ben UFO (All Night)"
 date = "2017-01-27T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "Timedance-event-011.jpg"
+image = "Timedance-event-012.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
@@ -62,7 +62,7 @@ guestLabels04 = [
 time = "22:00 – 03:00"
 
 # Venue details
-venueName = "Venue name"
+venueName = "The Island"
 venueAddress = "Address"
 
 # Entry price
