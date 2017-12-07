@@ -13,7 +13,7 @@ title = "27th - January 2017 - Ben UFO (All Night)"
 date = "2017-01-27T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "Timedance-event-012.jpg"
+image = "timedance-event-012.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
