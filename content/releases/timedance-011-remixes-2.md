@@ -39,7 +39,7 @@ artist = "Ploy"
 # Track names (comma-separated)
 tracks = [
 	"1. Footprints In Solid Rock (Beatrice Dillon remix)",
-	"2. Footprints In Solid Rock (Peder Mannerfelt Rock Solid remix"
+	"2. Footprints In Solid Rock (Peder Mannerfelt Rock Solid remix)"
 	
 ]
 
