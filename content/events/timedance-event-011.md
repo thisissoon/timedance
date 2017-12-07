@@ -7,25 +7,21 @@ draft = false
 description = ""
 
 # Event title
-title = "17th September 2016 - Tessela, Beatrice Dillon"
+title = "10th December 2016 - Pev & Kowton (Live), Lief"
 
 # Event date
-date = "2016-09-17T00:00:01Z"
+date = "2016-12-10T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-009-tessela-beatrice-dillon.jpg"
+image = "Timedance-event-011.pdf"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Tessela", 
-	"Beatrice Dillon",
-	"Poly Kicks",
-	"R&S",
-	"Alien Jams",
-	"Where To Now" 
+	"Pev & Kowton",
+	"Lief"
 ]
 
 # Any categories (currently not in use)
@@ -35,18 +31,17 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Tessela"
+guestName01 = "Pev & Kowton"
 
 guestLabels01 = [
-	"Poly Kicks",
-	"R&S"
+	"Livity Sound"
 ]
 
-guestName02 = "Beatrice Dillon"
+guestName02 = "Lief"
 
 guestLabels02 = [
-	"Alien Jams",
-	"Where To Now"
+	"Until My Heart Stops",
+	"Freerotation"
 ]
 
 guestName03 = ""
@@ -71,10 +66,10 @@ venueName = "Venue name"
 venueAddress = "Address"
 
 # Entry price
-entryPrice = "£5"
+entryPrice = "£10"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?873622"
+tickets = ""
 
 # Any news relating to this event should go here. Be sure to provide a title and link
 eventTitle01 = "Facebook event"
