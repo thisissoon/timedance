@@ -10,7 +10,7 @@ description = ""
 title = "20th - January 2018 - Lena Willikens, Batu"
 
 # Event date
-date = "2018-01-20T00:00:01Z"
+date = "2018-20-01T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-021.jpg"
