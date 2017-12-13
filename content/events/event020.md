@@ -7,10 +7,10 @@ draft = false
 description = ""
 
 # Event title
-title = "20th - October 2017 - Batu B2B Simo Cell, Cera Khin"
+title = "18th - November 2017 - Pearson Sound, Ploy, Danielle"
 
 # Event date
-date = "2017-10-20T00:00:01Z"
+date = "2017-12-28T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-20.jpg"
@@ -20,9 +20,9 @@ type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Batu",
-	"Simo Cell",
-	"Cera Khin",
+	"Pearson Sound",
+	"Ploy",
+	"Danielle",
 	""
 ]
 
@@ -33,25 +33,22 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Batu"
+guestName01 = "Pearson Sound"
 
 guestLabels01 = [
-	"Timedance",
-	"Hessle Audio",
-	"Livity Sound",
-	"BFDM"]
+	"Hessle Audio",]
 
-guestName02 = "Cera Khin"
+guestName02 = "Ploy"
 
 guestLabels02 = [
-	"Lazy Tapes",
-	"Noods Radio"]
+	"Timedance",
+	"Hessle Audio"]
 
-guestName03 = ""
+guestName03 = "Danielle"
 
 guestLabels03 = [
-	"",
-	""]
+	"NTS",
+	"BRSTL"]
 
 guestName04 = ""
 
@@ -60,17 +57,17 @@ guestLabels04 = [
 	""]
 
 # Time
-time = "23:55 – 06:00"
+time = "22:00 – 04:00"
 
 # Venue details
-venueName = "OHM, Berlin"
+venueName = "The Island, Bristol"
 venueAddress = ""
 
 # Entry price
-entryPrice = "€7"
+entryPrice = "£12.50"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "On The Door"
+tickets = "Headfirst"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
