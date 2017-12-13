@@ -45,7 +45,7 @@ guestLabels02 = [
 	"Timedance",
 	"Hessle Audio"]
 
-guestName03 = "Bato"
+guestName03 = "Batu"
 
 guestLabels03 = [
 	"Timedance",
