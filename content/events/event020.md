@@ -10,7 +10,7 @@ description = ""
 title = "18th - November 2017 - Pearson Sound, Ploy, Danielle"
 
 # Event date
-date = "2017-12-28T00:00:01Z"
+date = "2017-12-18T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-20.jpg"
@@ -57,7 +57,7 @@ guestLabels04 = [
 	""]
 
 # Time
-time = "22:00 – 04:00"
+time = "22:00 – 03:00"
 
 # Venue details
 venueName = "The Island, Bristol"
