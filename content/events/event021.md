@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Event title
-title = "20th - January 2018 - Lena Willikens"
+title = "20th - January 2018 - Lena Willikens, Batu"
 
 # Event date
 date = "2018-01-20T00:00:01Z"
@@ -22,6 +22,7 @@ type = "Events"
 tags = [ 
 	"Lena Willikens",
 	"Batu",
+	""
 ]
 
 # Any categories (currently not in use)
@@ -34,7 +35,8 @@ categories = [
 guestName01 = "Lena Willikens"
 
 guestLabels01 = [
-	"Comeme"
+	"Comeme",
+	""
 ]
 
 guestName02 = "Batu"
