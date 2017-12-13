@@ -7,23 +7,21 @@ draft = false
 description = ""
 
 # Event title
-title = "18th - November 2017 - Pearson Sound, Ploy, Danielle"
+title = "20th - January 2017 - Lena Willikens, Batu"
 
 # Event date
-date = "2017-11-18T00:00:01Z"
+date = "2018-01-20T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-020.jpg"
+image = "events/timedance-event-21.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Pearson Sound",
-	"Ploy",
-	"Danielle",
-	""
+	"Lena Willikens",
+	"Batu",
 ]
 
 # Any categories (currently not in use)
@@ -33,30 +31,27 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Pearson Sound"
+guestName01 = "Lena Willikens"
 
 guestLabels01 = [
-	"Hessle Audio",
-	"",
-	"",
-	""]
+	"Comeme"
+	]
 
-guestName02 = "Ploy"
+guestName02 = "Batu"
 
 guestLabels02 = [
 	"Timedance",
 	"Hessle Audio"]
 
-guestName03 = "Danielle"
+guestName03 = ""
 
 guestLabels03 = [
-	"NTS",
-	"BRSTL"]
+	"",
+	""]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
 	""]
 
 # Time
@@ -67,7 +62,7 @@ venueName = "The Island, Bristol"
 venueAddress = ""
 
 # Entry price
-entryPrice = "£12.50"
+entryPrice = "£14.50"
 
 # Link to tickets e.g. RA, Crack 
 tickets = "Headfirst"
