@@ -10,7 +10,7 @@ description = ""
 title = "18th - November 2017 - Pearson Sound, Ploy, Danielle"
 
 # Event date
-date = "2017-12-18T00:00:01Z"
+date = "2017-11-18T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-20.jpg"
@@ -22,8 +22,7 @@ type = "Events"
 tags = [ 
 	"Pearson Sound",
 	"Ploy",
-	"Danielle",
-	""
+	"Danielle"
 ]
 
 # Any categories (currently not in use)
@@ -36,7 +35,9 @@ categories = [
 guestName01 = "Pearson Sound"
 
 guestLabels01 = [
-	"Hessle Audio",]
+	"Hessle Audio",
+	""
+]
 
 guestName02 = "Ploy"
 
