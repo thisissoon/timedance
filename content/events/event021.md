@@ -13,7 +13,7 @@ title = "20th - January 2017 - Lena Willikens, Batu"
 date = "2018-01-20T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-21.jpg"
+image = "events/timedance-event-16.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
