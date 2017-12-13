@@ -1,16 +1,16 @@
 +++
 
 # true equals unpublished and will not be seen, false equals published and will be seen
-draft = false
+draft = true
 
 # Custom meta description (this will override default meta description)
 description = ""
 
 # Event title
-title = "20th - January 2017 - Lena Willikens, Batu"
+title = "20th - January 2018 - Lena Willikens, Batu"
 
 # Event date
-date = "2017-01-20T00:00:01Z"
+date = "2019-01-28T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-021.jpg"
