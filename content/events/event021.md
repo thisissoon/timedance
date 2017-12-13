@@ -7,21 +7,22 @@ draft = false
 description = ""
 
 # Event title
-title = "20th - January 2018 - Lena Willikens, Batu"
+title = "20th - January 2018 - Batu B2B Simo Cell, Cera Khin"
 
 # Event date
-date = "2018-20-01T00:00:01Z"
+date = "2017-10-20T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-021.jpg"
+image = "events/timedance-event-018.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Lena Willikens",
 	"Batu",
+	"Simo Cell",
+	"Cera Khin",
 	""
 ]
 
@@ -32,18 +33,19 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Lena Willikens"
+guestName01 = "Batu"
 
 guestLabels01 = [
-	"Comeme",
-	""
-]
+	"Timedance",
+	"Hessle Audio",
+	"Livity Sound",
+	"BFDM"]
 
-guestName02 = "Batu"
+guestName02 = "Cera Khin"
 
 guestLabels02 = [
-	"Timedance",
-	"Hessle Audio"]
+	"Lazy Tapes",
+	"Noods Radio"]
 
 guestName03 = ""
 
@@ -58,17 +60,17 @@ guestLabels04 = [
 	""]
 
 # Time
-time = "22:00 – 03:00"
+time = "23:55 – 06:00"
 
 # Venue details
-venueName = "The Island, Bristol"
+venueName = "OHM, Berlin"
 venueAddress = ""
 
 # Entry price
-entryPrice = "£14.50"
+entryPrice = "€7"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "Headfirst"
+tickets = "On The Door"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
