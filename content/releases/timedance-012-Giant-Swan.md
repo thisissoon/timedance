@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Release title
-title = "Giant Swan - Celebrate The Last 30 Years Of Human Ego / IFTLOYL [Timedance012]"
+title = "Giant Swan - Celebrate The Last 30 Years Of Human Ego"
 
 # Release date
 date = "2017-10-27T00:00:01Z"
