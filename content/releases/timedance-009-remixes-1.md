@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Release title
-title = "Bruce / Lurka – Remixes 1 [Timedance009]"
+title = "Bruce / Lurka – Remixes 1"
 
 # Release date
 date = "2017-06-09T00:00:01Z"
