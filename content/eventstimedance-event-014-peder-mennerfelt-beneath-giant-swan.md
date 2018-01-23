@@ -13,7 +13,7 @@ title = "22nd - April 2017 - Peder Mannerfelt (Live), Beneath, Giant Swan"
 date = "2017-04-22T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-014.jpg"
+image = "events/timedance-event-014-peder-mennerfelt-beneath-giant-swan.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
