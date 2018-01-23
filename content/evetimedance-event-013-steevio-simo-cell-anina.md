@@ -13,7 +13,7 @@ title = "18th - March 2017 - Steevio (Live), Simo Cell, Anina"
 date = "2017-03-18T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-013.jpg"
+image = "events/timedance-event-013-steevio-simo-cell-anina.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
