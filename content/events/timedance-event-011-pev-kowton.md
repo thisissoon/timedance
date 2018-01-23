@@ -13,7 +13,7 @@ title = "10th December 2016 - Pev & Kowton (Live), Leif"
 date = "2016-12-10T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-011.jpg"
+image = "events/timedance-event-011-pev-kowton.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
