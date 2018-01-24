@@ -1,4 +1,4 @@
-<article class="li">
+<article class="li release-item">
   
 	<a href="{{ .Permalink }}" class="clearfix">
 
@@ -7,7 +7,7 @@
 		</div> -->
 
 		<div class="image">
-			<img src="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Poster: {{ .Title }}">
+			<img src="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Artwork: {{ .Title }}">
 		</div>
 	</a>
 

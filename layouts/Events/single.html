@@ -1,0 +1,231 @@
+{{ partial "default_head.html" . }}
+
+<div class="single fadein">
+
+    <div class="container-fluid site">
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                <!-- article
+                ======================================== -->
+
+                <article class="single event-item" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+                    <!-- meta
+                    ======================================== -->
+
+                    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="{{ .Site.BaseURL }}"/>
+                    <meta itemprop="dateModified" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+                    <meta itemprop="headline" content="{{ .Title }}">
+                    <meta itemprop="description" content="{{ .Summary }}">
+                    <meta itemprop="url" content="{{ .Permalink }}">
+                    
+                    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                        <meta itemprop="url" content="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" />
+                        <meta itemprop="width" content="800">
+                        <meta itemprop="height" content="800">
+                    </div>
+                    
+                    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                            <meta itemprop="url" content="{{ .Site.BaseURL }}images/logo.jpg">
+                            <meta itemprop="width" content="100">
+                            <meta itemprop="height" content="100">
+                        </div>
+                        <meta itemprop="name" content="{{ .Site.Title }}">
+                    </div>
+
+                    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <meta itemprop="name" content="{{ .Site.Params.Author }}">
+                    </div>
+
+                    <!--
+                    ======================================== -->
+
+                    <div class="row">
+
+                        <!-- image
+                        ======================================== --> 
+
+                        <div class="col-sm-8 col-md-6">
+                          
+                            <div class="image">
+                                <img src="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }}" alt="Poster: {{ .Title }}">
+                            </div>
+                      
+                        </div>
+
+                        <!-- text
+                        ======================================== -->
+
+                        <div class="col-sm-12 col-md-6">
+
+                            <header class="article-header">
+
+                                <h4>Guests</h4>
+
+                                <!-- guest -->
+                                {{ if .Params.guestname01 }}
+                                <h2 class="article-guest">{{ .Params.guestname01 }}</h2>
+
+                                <ul class="article-guest-labels">
+                                    {{ range .Params.guestlabels01 }}
+                                    <li>{{ . }} /</li>
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+
+                                <!-- guest -->
+                                {{ if .Params.guestname02 }}
+                                <h2 class="article-guest">{{ .Params.guestname02 }}</h2>
+
+                                <ul class="article-guest-labels">
+                                    {{ range .Params.guestlabels02 }}
+                                    <li>{{ . }} /</li>
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+
+                                <!-- guest -->
+                                {{ if .Params.guestname03 }}
+                                <h2 class="article-guest">{{ .Params.guestname03 }}</h2>
+
+                                <ul class="article-guest-labels">
+                                    {{ range .Params.guestlabels03 }}
+                                    <li>{{ . }} /</li>
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+
+                                <!-- guest -->
+                                {{ if .Params.guestname04 }}
+                                <h2 class="article-guest">{{ .Params.guestname04 }}</h2>
+
+                                <ul class="article-guest-labels">
+                                    {{ range .Params.guestlabels04 }}
+                                    <li>{{ . }} /</li>
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+
+                                <hr>
+
+                                <h4>Details</h4>
+
+                                <div class="article-date">
+                                    <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">Date: {{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, 2 Jan, 2006" }}{{ end }}</time>
+                                </div>
+
+                                <h3 class="article-time">Time: {{ .Params.time }}</h3>
+
+                                <h3 class="article-venue">Venue: {{ .Params.venuename }}</h3>
+
+                                <h3 class="article-venue">Venue: {{ .Params.venuename }}, {{ .Params.venueaddress }}</h3>
+
+                                <h3 class="article-price">Price: {{ .Params.entryprice }}</h3>
+
+                            </header>
+
+
+                            <!--
+                            ======================================== -->
+
+                            {{ if .Params.tickets }}
+                            <div class="article-cta">
+                              <a class="btn" href="{{ .Params.tickets }}" target="_blank">Tickets</a>
+                            </div>
+                            {{ end }}
+
+                            <!-- <div class="article-body" itemprop="articleBody">
+                                {{ .Content }}
+                            </div> -->
+
+                            <!-- aside
+                            ======================================== -->
+
+                            <hr>
+
+                            <aside>
+                                {{ with .Params.tags }}
+                                <div class="section">
+                                    <h4>Tags:</h4>
+                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | urlize }}" class="tag">{{ . }}</a>/</li> {{ end }}</ul>
+                                </div>
+                                {{ end }}
+
+                                {{ if .Params.eventlink01 }}
+
+                                <hr>
+
+                                <div class="section">
+                                    <h4>Links:</h4>
+                                    <ul>
+                                        {{ if .Params.eventlink01 }}
+                                        <li><a href="{{ .Params.eventlink01 }}" class="news">{{ .Params.eventtitle01 }}</a>/</li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink02 }}
+                                        <li><a href="{{ .Params.eventlink02 }}" class="news">{{ .Params.eventtitle02 }}</a>/</li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink03 }}
+                                        <li><a href="{{ .Params.eventlink03 }}" class="news">{{ .Params.eventtitle03 }}</a>/</li>
+                                        {{ end }}
+
+                                        {{ if .Params.eventlink04 }}
+                                        <li><a href="{{ .Params.eventlink04 }}" class="news">{{ .Params.eventtitle04 }}</a>/</li>
+                                        {{ end }}
+                                    </ul>           
+                                </div>
+                                {{ end }}
+
+                            </aside>
+
+                            <hr>
+
+                            <!-- share
+                            ======================================== -->
+
+                            <div class="article-share">
+                                <h4>Share:</h4>
+                                <a href="http://www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }} {{ .Permalink }} via @timedancemusic" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-facebook"><i class="fa fa-facebook"></i>Facebook</a>
+
+                                <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }} {{ .Permalink }} via @TIMEDANCE_UK&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-twitter"><i class="fa fa-twitter"></i>Twitter</a>
+                            </div>
+
+                            <!-- controls
+                            ======================================== -->
+
+                            <div class="row">
+                                <div class="col-xs-12" class="left">
+                                    <nav class="paging">
+                                        {{ if .PrevInSection }}
+                                            <a href="{{.PrevInSection.Permalink}}">
+                                                <div class="prev">
+                                                    <p><i class="material-icons">chevron_left</i></p>
+                                                </div>
+                                            </a>
+                                        {{ end }}
+                                        {{ if .NextInSection }}
+                                            <a href="{{.NextInSection.Permalink}}">
+                                                <div class="next">
+                                                    <p><i class="material-icons">chevron_right</i></p>
+                                                </div>  
+                                            </a>
+                                        {{ end }}
+                                    </nav>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </article>
+              
+            </div>
+        </div>
+
+    </div>
+
+{{ partial "default_foot.html" . }}
