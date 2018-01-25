@@ -10,7 +10,7 @@
         <div class="articles">
           <div class="row">
 
-            {{ range (where .Data.Pages "Type" "releases") }}
+            {{ range (where .Data.Pages "Type" "Releases") }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
               {{ .Render "li" }}
             </div>
@@ -19,7 +19,7 @@
 
           <div class="row">
 
-            {{ range (where .Data.Pages "Type" "events") }}
+            {{ range (where .Data.Pages "Type" "Events") }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
               {{ .Render "li" }}
             </div>
