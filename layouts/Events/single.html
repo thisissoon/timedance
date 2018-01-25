@@ -147,10 +147,11 @@
                             <hr>
 
                             <aside>
-                                {{ with .Params.tags }}
+                                {{ $tags := .Params.tags }}
+                                {{ with $tags }}                                
                                 <div class="section">
                                     <h4>Tags:</h4>
-                                    <ul>{{ range . }}<li><a href="{{ $.Site.BaseURL}}tags/{{ . | urlize }}" class="tag">{{ . }}</a>/</li> {{ end }}</ul>
+                                    <ul>{{range $index, $element := $tags}}<li>{{ if $index }}/{{ end }} <a href="{{ $.Site.BaseURL}}tags/{{ $element | urlize }}" class="tag">{{ $element }}</a></li>{{ end }}</ul>
                                 </div>
                                 {{ end }}
 
