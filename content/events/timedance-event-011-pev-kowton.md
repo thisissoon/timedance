@@ -33,31 +33,34 @@ categories = [
 guestName01 = "Pev & Kowton"
 
 guestLabels01 = [
-	"Livity Sound"]
+	"Livity Sound"
+]
 
 guestName02 = "Leif"
 
 guestLabels02 = [
 	"UMHS",
-	"Freerotation"]
+	"Freerotation"
+]
 
 guestName03 = ""
 
 guestLabels03 = [
-	"",
-	""]
+	""
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	""]
+	""
+]
 
 # Time
 time = "23:00 – 04:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£10"

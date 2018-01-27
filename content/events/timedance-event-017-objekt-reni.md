@@ -21,9 +21,7 @@ type = "Events"
 # Any tags (comma-separated)
 tags = [ 
 	"Objekt",
-	"re:ni",
-	"",
-	""
+	"re:ni"
 ]
 
 # Any categories (currently not in use)
@@ -36,39 +34,39 @@ categories = [
 guestName01 = "Objekt"
 
 guestLabels01 = [
-	"",
-	""]
+	""
+]
 
 guestName02 = "re:ni"
 
 guestLabels02 = [
-	"Siren",
-	""]
+	"Siren"
+]
 
 guestName03 = ""
 
 guestLabels03 = [
-	"",
-	""]
+	""
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
-	""]
+	""
+]
 
 # Time
 time = "23:00 – 04:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£15"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "Headfirst"
+tickets = "#"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"

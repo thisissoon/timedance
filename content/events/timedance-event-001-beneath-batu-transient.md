@@ -71,7 +71,7 @@ time = "22:00 – 04:00"
 
 # Venue details
 venueName = "Cavern Club"
-venueAddress = "10, All Saints Lane, Bristol, BS1 1JH"
+venueAddress = "10, All Saints Lane, Bristol. BS1 1JH"
 
 # Entry price
 entryPrice = "£5"

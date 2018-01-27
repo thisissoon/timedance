@@ -43,32 +43,34 @@ guestName02 = "Ploy"
 
 guestLabels02 = [
 	"Timedance",
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName03 = "Batu"
 
 guestLabels03 = [
 	"Timedance",
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
-	""]
+	""
+]
 
 # Time
 time = "22:00 – 04:00"
 
 # Venue details
-venueName = "The Cellar, Oxford"
-venueAddress = ""
+venueName = "The Cellar"
+venueAddress = "Frewin Court, Oxford. OX1 3HZ"
 
 # Entry price
 entryPrice = "£8"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "Resident Advisor"
+tickets = "#"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"

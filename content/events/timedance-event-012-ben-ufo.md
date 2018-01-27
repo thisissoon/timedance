@@ -34,37 +34,39 @@ categories = [
 guestName01 = "Ben UFO"
 
 guestLabels01 = [
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName02 = ""
 
 guestLabels02 = [
-	"",
-	""]
+	""
+]
 
 guestName03 = ""
 
 guestLabels03 = [
-	"",
-	""]
+	""
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	""]
+	""
+]
 
 # Time
 time = "23:00 – 04:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£10"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "On The Door"
+tickets = ""
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"

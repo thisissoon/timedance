@@ -36,33 +36,35 @@ categories = [
 guestName01 = "Skee Mask"
 
 guestLabels01 = [
-	"Illian Tape",
-	""]
+	"Illian Tape"
+]
 
 guestName02 = "Batu"
 
 guestLabels02 = [
 	"Timedance",
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName03 = "DEBONAIR"
 
 guestLabels03 = [
-	"NTS",
-	""]
+	"NTS"
+]
 
 guestName04 = "PLoy"
 
 guestLabels04 = [
 	"Hessle Audio",
-	"Timedance"]
+	"Timedance"
+]
 
 # Time
 time = "23:00 – 06:00"
 
 # Venue details
-venueName = "The Pickle Factory, London"
-venueAddress = ""
+venueName = "The Pickle Factory"
+venueAddress = "13-14 The Oval, London. E2 9DU"
 
 # Entry price
 entryPrice = ""

@@ -35,34 +35,35 @@ categories = [
 guestName01 = "Pearson Sound"
 
 guestLabels01 = [
-	"Hessle Audio",
-	""
+	"Hessle Audio"
 ]
 
 guestName02 = "Ploy"
 
 guestLabels02 = [
 	"Timedance",
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName03 = "Danielle"
 
 guestLabels03 = [
 	"NTS",
-	"BRSTL"]
+	"BRSTL"
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
-	""]
+	""
+]
 
 # Time
 time = "22:00 – 03:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£12.50"
@@ -72,13 +73,13 @@ tickets = "Headfirst"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
-eventLink01 = ""
+eventLink01 = "https://www.residentadvisor.net/event.aspx?754111"
 
 eventTitle02 = "RA event"
-eventLink02 = ""
+eventLink02 = "https://www.residentadvisor.net/event.aspx?754111"
 
 eventTitle03 = "Mix"
-eventLink03 = ""
+eventLink03 = "https://www.residentadvisor.net/event.aspx?754111"
 
 eventTitle04 = ""
 eventLink04 = ""

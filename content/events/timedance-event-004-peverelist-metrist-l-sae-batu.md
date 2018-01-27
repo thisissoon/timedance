@@ -42,7 +42,7 @@ guestLabels01 = [
 	"Livity Sound"
 ]
 
-guestName02 = "Metrist/L.SAE"
+guestName02 = "Metrist / L.SAE"
 
 guestLabels02 = [
 	"Timedance",

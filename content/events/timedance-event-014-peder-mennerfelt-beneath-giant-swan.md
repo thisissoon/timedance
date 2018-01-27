@@ -36,37 +36,41 @@ guestName01 = "Peder Mannerfelt (Live)"
 
 guestLabels01 = [
 	"Hinge Finger",
-	"Numbers"]
+	"Numbers"
+]
 
 guestName02 = "Beneath"
 
 guestLabels02 = [
 	"No Symbols",
-	"Hotline"]
+	"Hotline"
+]
 
 guestName03 = "Giant Swan"
 
 guestLabels03 = [
 	"Howling Owl",
-	"Fuck Punk"]
+	"Fuck Punk"
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	""]
+	""
+]
 
 # Time
 time = "23:00 – 04:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£12"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "Headfirst"
+tickets = "#"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"

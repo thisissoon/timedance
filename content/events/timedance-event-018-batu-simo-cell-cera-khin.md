@@ -22,8 +22,7 @@ type = "Events"
 tags = [ 
 	"Batu",
 	"Simo Cell",
-	"Cera Khin",
-	""
+	"Cera Khin"
 ]
 
 # Any categories (currently not in use)
@@ -39,38 +38,40 @@ guestLabels01 = [
 	"Timedance",
 	"Hessle Audio",
 	"Livity Sound",
-	"BFDM"]
+	"BFDM"
+]
 
 guestName02 = "Cera Khin"
 
 guestLabels02 = [
 	"Lazy Tapes",
-	"Noods Radio"]
+	"Noods Radio"
+]
 
 guestName03 = ""
 
 guestLabels03 = [
-	"",
-	""]
+	""
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
-	""]
+	""
+]
 
 # Time
 time = "23:55 – 06:00"
 
 # Venue details
-venueName = "OHM, Berlin"
-venueAddress = ""
+venueName = "OHM"
+venueAddress = "Köpenicker Str. 70, 10179 Berlin, Germany"
 
 # Entry price
 entryPrice = "€7"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "On The Door"
+tickets = ""
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"

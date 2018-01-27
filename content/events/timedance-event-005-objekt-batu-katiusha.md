@@ -69,7 +69,7 @@ venueName = "The Cellar"
 venueAddress = "Frewin Ct, Oxford, OX1 3HZ"
 
 # Entry price
-entryPrice = "£5/£8/£10"
+entryPrice = "£5 / £8 / £10"
 
 # Link to tickets e.g. RA, Crack 
 tickets = "https://www.ticketabc.com/turf-x-timedance-w-o/"

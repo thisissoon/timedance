@@ -10,7 +10,8 @@ description = ""
 title = "20th - January 2018 - Lena Willikens, Batu"
 
 # Event date
-date = "2019-01-28T00:00:01Z"
+date = "2018-01-20T00:00:01Z"
+
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-021-lena-willikens-batu.jpg"
@@ -21,9 +22,7 @@ type = "Events"
 # Any tags (comma-separated)
 tags = [ 
 	"Lena Willikens",
-	"Batu",
-	"",
-	""
+	"Batu"
 ]
 
 # Any categories (currently not in use)
@@ -36,41 +35,40 @@ categories = [
 guestName01 = "Lena Willikens"
 
 guestLabels01 = [
-	"Comeme",
-	"",
-	"",
-	""]
+	"Comeme"
+]
 
 guestName02 = "Batu"
 
 guestLabels02 = [
 	"Timedance",
-	"Hessle Audio"]
+	"Hessle Audio"
+]
 
 guestName03 = ""
 
 guestLabels03 = [
-	"",
-	""]
+	""
+]
 
 guestName04 = ""
 
 guestLabels04 = [
-	"",
-	""]
+	""
+]
 
 # Time
 time = "22:00 – 03:00"
 
 # Venue details
-venueName = "The Island, Bristol"
-venueAddress = ""
+venueName = "The Island"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£14.50"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "Headfirst"
+tickets = "#"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
