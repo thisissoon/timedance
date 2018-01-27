@@ -22,13 +22,16 @@ footer section {
 footer.site h4 {
 	color: #7e7e7e;
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 400;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 
 footer.site p {
 	font-size: 15px;
+	font-style: normal;
+  	font-weight: 400;
 	color: #000;
 	text-align: left;
 }

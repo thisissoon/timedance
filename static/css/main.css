@@ -31,7 +31,6 @@
   z-index: 100;
   margin-bottom: 400px;
   background-color: #fafafa;
-  /*background: #f1f1f1 url("../images/noise-v1.jpg") repeat;*/
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
@@ -50,6 +49,8 @@
     transition: .2s ease-out;
     cursor: pointer;
     font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
     outline: 0;
     border: none;
     border-radius: 2px;
@@ -76,7 +77,8 @@ article.li {
 article.li h2 {
   color: #000;
   font-size: 15px;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
   margin-top: 10px; 
   margin-bottom: 20px;

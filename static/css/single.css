@@ -18,7 +18,8 @@ article.single .events {
 article.single h1.article-title {
 	color: #7e7e7e;
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+	font-weight: 400;
 	text-transform: uppercase;
 	margin: 0 0 20px;
 	line-height: 18px;
@@ -26,21 +27,24 @@ article.single h1.article-title {
 
 article.single h2.article-artist {
 	font-size: 27px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 700;
 	margin: 20px 0;
 	line-height: 36px;
 }
 
 article.single h2.article-guest {
 	font-size: 27px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 700;
 	margin: 20px 0 5px;
 	line-height: 36px;
 }
 
 article.single h3.article-track {
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 400;
 	margin: 10px 0;
 	line-height: 18px;
 }
@@ -53,7 +57,8 @@ article.single ul.article-guest-labels {
 article.single .article-guest-labels li {
 	display: inline-block;
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 400;
 	line-height: 18px;
 }
 
@@ -63,7 +68,8 @@ article.single h3.article-venue,
 article.single h3.article-venue-address,
 article.single h3.article-price {
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 400;
 	line-height: 18px;
 }
 
@@ -118,13 +124,16 @@ article.single aside {
 article.single aside .section {
 	text-align: left;
 	font-size: 15px;
+	font-style: normal;
+  	font-weight: 400;
 	margin: 0 0 20px 0;
 }
 
 article.single h4 {
 	color: #7e7e7e;
 	font-size: 15px;
-	font-weight: normal;
+	font-style: normal;
+  	font-weight: 400;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }

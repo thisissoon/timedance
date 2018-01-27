@@ -21,22 +21,15 @@ header.site .logo {
 .title-wrapper {
   margin-top: 15px;
   padding-left: 15px;
-  /*border-bottom: 1px solid #7e7e7e;*/
 }
 
 header.site .title h1 {
   font-size: 27px;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 700;
   text-align: left;
   color: #000;
 }
-
-/*header.site .sub-title h2 {
-  font-size: 15px;
-  font-weight: normal;
-  text-align: left;
-  color: #7e7e7e;
-}*/
 
 /* 
 ======================================== */
@@ -59,6 +52,8 @@ header.site nav li {
   display: inline-block;
   padding: 5px 15px 0;
   text-align: left;
+  font-style: normal;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -85,6 +80,8 @@ header.site .contact li {
   padding: 0 15px 0;
   text-align: left;
   font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 header.site .contact li.last {
@@ -103,7 +100,7 @@ header.site nav li a.active:hover,
 header.site nav li a.active:focus,
 header.site nav li a.active:active {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 /* 

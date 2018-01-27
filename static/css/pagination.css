@@ -29,14 +29,12 @@ nav.paging .right {
 ======================================== */
 
 nav.paging p {
-  font-family: TransportNewLight;
-  font-weight: normal;
-  font-style: normal;
-  color: #7e7e7e;
   font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  color: #7e7e7e;
   text-align: center;
   text-transform: uppercase;
-  
 }
 
 /*
