@@ -69,44 +69,61 @@
                                 {{ if .Params.guestname01 }}
                                 <h2 class="article-guest">{{ .Params.guestname01 }}</h2>
 
+                                {{ $guestlabels01 := .Params.guestlabels01 }}
+                                {{ with $guestlabels01 }}
                                 <ul class="article-guest-labels">
-                                    {{ range .Params.guestlabels01 }}
-                                    <li>{{ . }} /</li>
+                                    {{range $index, $element := $guestlabels01}}
+                                        <li>{{ if $index }}/{{ end }} {{ $element }}</a></li>
                                     {{ end }}
                                 </ul>
+                                {{ end }}
+
+
                                 {{ end }}
 
                                 <!-- guest -->
                                 {{ if .Params.guestname02 }}
                                 <h2 class="article-guest">{{ .Params.guestname02 }}</h2>
 
+                                {{ $guestlabels02 := .Params.guestlabels02 }}
+                                {{ with $guestlabels02 }}
                                 <ul class="article-guest-labels">
-                                    {{ range .Params.guestlabels02 }}
-                                    <li>{{ . }} /</li>
+                                    {{range $index, $element := $guestlabels02}}
+                                        <li>{{ if $index }}/{{ end }} {{ $element }}</a></li>
                                     {{ end }}
                                 </ul>
+                                {{ end }}
+
                                 {{ end }}
 
                                 <!-- guest -->
                                 {{ if .Params.guestname03 }}
                                 <h2 class="article-guest">{{ .Params.guestname03 }}</h2>
 
+                                {{ $guestlabels03 := .Params.guestlabels03 }}
+                                {{ with $guestlabels03 }}
                                 <ul class="article-guest-labels">
-                                    {{ range .Params.guestlabels03 }}
-                                    <li>{{ . }} /</li>
+                                    {{range $index, $element := $guestlabels03}}
+                                        <li>{{ if $index }}/{{ end }} {{ $element }}</a></li>
                                     {{ end }}
                                 </ul>
+                                {{ end }}
+
                                 {{ end }}
 
                                 <!-- guest -->
                                 {{ if .Params.guestname04 }}
                                 <h2 class="article-guest">{{ .Params.guestname04 }}</h2>
 
+                                {{ $guestlabels04 := .Params.guestlabels04 }}
+                                {{ with $guestlabels04 }}
                                 <ul class="article-guest-labels">
-                                    {{ range .Params.guestlabels04 }}
-                                    <li>{{ . }} /</li>
+                                    {{range $index, $element := $guestlabels04}}
+                                        <li>{{ if $index }}/{{ end }} {{ $element }}</a></li>
                                     {{ end }}
                                 </ul>
+                                {{ end }}
+
                                 {{ end }}
 
                                 <hr>
@@ -118,8 +135,6 @@
                                 </div>
 
                                 <h3 class="article-time">Time: {{ .Params.time }}</h3>
-
-                                <h3 class="article-venue">Venue: {{ .Params.venuename }}</h3>
 
                                 <h3 class="article-venue">Venue: {{ .Params.venuename }}, {{ .Params.venueaddress }}</h3>
 
