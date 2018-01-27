@@ -16,16 +16,7 @@ footer .pattern {
 }
 
 footer section {
-	margin: 20px 0 40px;
-}
-
-footer.site h4 {
-	color: #7e7e7e;
-	font-size: 15px;
-	font-style: normal;
-  	font-weight: 400;
-	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 footer.site p {
@@ -36,20 +27,8 @@ footer.site p {
 	text-align: left;
 }
 
-footer.site .credits {
-	border-top: 1px solid #7e7e7e;
-	padding-top: 20px;
-	margin-top: 20px;
-}
-
-footer.site .credits p {
-	color: #000;
-}
-
-footer.site .credits a:link,
-footer.site .credits a:visited {
-	color: #000;
-	text-decoration: underline; 
+footer.site hr {
+  margin: 40px 0 30px;
 }
 
 
@@ -84,17 +63,20 @@ footer.site .footer-item a {
 		width: 100%;
 	}
 
+	footer section {
+		margin: 40px 0 40px;
+	}
+
 	footer.site h4 {
 		margin-bottom: 10px;
 	}
 
 	footer.site .footer-item {
-		margin: 15px 0;
+		margin: 0;
 	}
 
 	footer.site .footer-item li {
-		display: inline-block;
-		margin: 0 5px;
+		margin: 10px 0;
 	}
   
 }
@@ -111,9 +93,13 @@ footer.site .footer-item a {
 @media (min-width: 992px) {
 
 	footer.site {
-		position: fixed;
+		position: relative;
 		width: 100%;
 	    bottom: 0;
+	}
+
+	footer section {
+		margin: 40px 0 20px;
 	}
 
 	footer.site h4 {
@@ -121,7 +107,7 @@ footer.site .footer-item a {
 	}
 
 	footer.site .footer-item {
-		margin: 20px 0 40px;
+		margin: 0 0 40px;
 	}
 
 	footer.site .footer-item li {

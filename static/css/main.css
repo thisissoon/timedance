@@ -29,7 +29,7 @@
   position: relative;
   min-height: 100%;
   z-index: 100;
-  margin-bottom: 400px;
+  margin-bottom: -50px;
   background-color: #fafafa;
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
@@ -170,11 +170,6 @@ article.event-item .image {
   .single .site {
     margin-top: 0;
   }
-
-  .wrapper {
-    margin-bottom: -50px;
-  }
-  
   
 }
 
@@ -209,12 +204,7 @@ article.event-item .image {
   .single .site {
     margin-top: 40px;
   }
-
-  .wrapper {
-    margin-bottom: 350px;
-  }
   
-
 }
 
 /* Large devices (large desktops, 1200px and up) */

@@ -37,7 +37,7 @@ article.single h2.article-guest {
 	font-size: 27px;
 	font-style: normal;
   	font-weight: 700;
-	margin: 20px 0 5px;
+	margin: 20px 0 0;
 	line-height: 36px;
 }
 
@@ -89,7 +89,6 @@ article.single h3.article-price {
 
 article.single hr {
 	margin: 40px 0 30px;
-	border-top: 1px solid #f1f1f1;
 }
 
 
