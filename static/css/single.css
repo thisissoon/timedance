@@ -130,15 +130,17 @@ article.single aside .section {
 }
 
 article.single h4 {
+	display: inline;
 	color: #7e7e7e;
 	font-size: 15px;
 	font-style: normal;
-  	font-weight: 400;
-	text-transform: uppercase;
+	font-weight: 400;
+	/*text-transform: uppercase;*/
 	margin-bottom: 20px;
 }
 
 article.single aside ul {
+	display: inline;
 	padding: 0;
 	margin: 0;
 }
@@ -156,6 +158,10 @@ article.single .article-share .fa {
 
 article.single .article-share {
 	padding: 0 0 10px;
+}
+
+article.single .article-share h4 {
+	padding-right: 4px;
 }
 
 /* 
