@@ -4,7 +4,6 @@
 article.single {
 	color: #000;
 	background-color: transparent;
-	padding-bottom: 70px;
 }
 
 article.single .article-header {
@@ -168,7 +167,11 @@ article.single .article-share h4 {
 
 @media (min-width: 320px) {
 
-	article.single {
+	article.release-item {
+		padding-bottom: 0;
+	}
+
+	article.event-item {
 		padding-bottom: 0;
 	}
 
@@ -193,8 +196,12 @@ article.single .article-share h4 {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-	article.single {
-		padding-bottom: 70px;
+	article.release-item {
+		padding-bottom: 0;
+	}
+
+	article.event-item {
+		padding-bottom: 60px;
 	}
 
 	article.single .article-header {
