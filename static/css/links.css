@@ -64,6 +64,20 @@ footer.site .footer-item a:hover:after {
   width: 100%;
 }
 
+nav.paging a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: none;
+  transition: 0.4s;
+}
+
+nav.paging a:hover:after {
+  width: 0;
+}
+
 /* logo
 ======================================== */
 

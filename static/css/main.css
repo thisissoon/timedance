@@ -30,6 +30,7 @@
   min-height: 100%;
   z-index: 100;
   margin-bottom: -50px;
+  padding-bottom: 40px;
   background-color: #fafafa;
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
