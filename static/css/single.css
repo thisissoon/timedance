@@ -148,10 +148,13 @@ article.single aside li {
 }
 
 article.single aside a.tag,
-article.single aside a.news,
 article.single .article-share a,
 article.single .article-share .fa {
 	margin: 0 5px 0 0;
+}
+
+article.single aside a.news {
+	margin: 0 0 0 0;
 }
 
 article.single .article-share {
