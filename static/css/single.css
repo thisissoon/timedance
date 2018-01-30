@@ -170,11 +170,11 @@ article.single .article-share h4 {
 
 @media (min-width: 320px) {
 
-	article.release-item {
+	article.single.release-item {
 		padding-bottom: 0;
 	}
 
-	article.event-item {
+	article.single.event-item {
 		padding-bottom: 0;
 	}
 
@@ -199,11 +199,11 @@ article.single .article-share h4 {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-	article.release-item {
+	article.single.release-item {
 		padding-bottom: 0;
 	}
 
-	article.event-item {
+	article.single.event-item {
 		padding-bottom: 60px;
 	}
 
