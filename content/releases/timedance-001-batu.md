@@ -21,8 +21,7 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Timedance", 
-	"Bristol",
-	"UK"
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -47,7 +46,7 @@ bandcampTitle = "Cardinal / Domino Theory by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = "RA review"
-newsLink01 = 
+newsLink01 = ""
 
 newsTitle02 = "Juno Plus review"
 newsLink02 = ""
@@ -62,5 +61,5 @@ newsLink04 = ""
 
 <!-- Provide a summary/statement below -->
 Batu sets the bench mark with the debut release on Timedance. Outlining the labels platform for hybrids and mutations of UK Techno.
-]
+
 140g record, mastered by Beau Thomas. Grey sleeve w/ sticker and centre labels
