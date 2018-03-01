@@ -21,7 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"L.SAE", 
-	"Techno"
+	"Bristol",
+	"UK"
 ]
 
 # Any categories (currently not in use)
@@ -60,4 +61,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
+L.SAE creates a distinctively raw, atmospheric sound palette. Traveling further into dark, off kilter UK techno territory.
+
 140g record, mastered by Beau Thomas, limited copies. Black sleeve w/ sticker.
