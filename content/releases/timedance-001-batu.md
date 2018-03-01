@@ -46,7 +46,7 @@ bandcampTitle = "Cardinal / Domino Theory by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = "RA review"
-newsLink01 = "https://www.residentadvisor.net/reviews/16676"
+newsLink01 = 
 
 newsTitle02 = "Juno Plus review"
 newsLink02 = ""
