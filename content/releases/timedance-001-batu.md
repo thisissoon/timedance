@@ -20,8 +20,9 @@ type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Batu", 
-	"Techno"
+	"Timedance", 
+	"Bristol",
+	"UK"
 ]
 
 # Any categories (currently not in use)
