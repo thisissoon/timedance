@@ -60,6 +60,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Batu sets the bench mark with the debut release on Timedance. Outlining the labels platform for hybrids and mutations of UK Techno.
+Batu sets the bench mark for Timedance with his debut release outlining the labels platform for hybrids and mutations of UK Techno.
 
-140g record, mastered by Beau Thomas. Grey sleeve w/ sticker and centre labels
+140g record, mastered by Beau Thomas.
