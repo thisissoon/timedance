@@ -63,6 +63,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Batu returns exploring the relationship between light and dark timbres. Influences from dub wise aesthetics, with strong emotive melodies. Also, featuring a remix by Lee Gamble.
+Batu returns exploring the relationship between light and dark timbres. Influences from dub wise aesthetics, with strong emotive melodies. Featuring a remix by Lee Gamble.
 
 140g record, mastered by Beau Thomas.
