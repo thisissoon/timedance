@@ -4,7 +4,9 @@
 draft = false
 
 # Custom meta description (this will override default meta description)
-description = ""
+description = "Label boss Batu sets the bench mark for Timedance with his debut release outlining the labels platform for hybrids and mutations of UK Techno.",
+
+"140g record, mastered by Beau Thomas."
 
 # Release title
 title = "Batu - Cardinal / Domino Theory"
