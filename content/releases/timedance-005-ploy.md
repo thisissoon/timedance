@@ -21,7 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Ploy",
-	"Techno"
+	"Timedance",
+	"UK"
 ]
 
 # Any categories (currently not in use)
@@ -61,4 +62,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
+Ploy displays his ear for striking, off-kilter ideas, whilst staying aware of dance floor functionality with his debut release for Timedance.
+
 140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Danielle Doobay 
