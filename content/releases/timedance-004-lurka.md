@@ -21,7 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Lurka",
-	"Techno" 
+	"Timedance" ,
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -60,4 +61,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - painting by Bruce. 
+Lurka debuts with some of his finest and most experimental work yet. Combing his trademark percussion patterns with rippling arps and deep sub bass.
+
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels – painting by Bruce
