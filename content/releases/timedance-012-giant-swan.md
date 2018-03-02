@@ -21,8 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Giant Swan", 
-	"Death Metal",
-	"Electronic"
+	"Timedance",
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -62,4 +62,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. Fresh from a series of high profile gigs and a feature in The Wire, the duo release their first single of 2017, the most refined work they have showcased yet. The single features two assaults of frenetic rhythmic work outs, gully drops and punky vocals - cementing their place as one of the most exciting up and comers in dance music right now. 
+Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. The single features two assaults of frenetic rhythmic work outs, gully drops and punky vocals. 
+
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Giant Swan 
