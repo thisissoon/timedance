@@ -60,4 +60,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
+Bruce debuts on Timedance with two cuts of floor destroying workouts. Tenacious kick drums set the tone whilst screaming feedback leaves no sense of predictability.
+
 140g record, mastered by Beau Thomas. Black sleeve w/ sticker - artwork by Bruce
