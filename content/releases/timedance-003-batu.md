@@ -26,8 +26,9 @@ tags = [
 
 # Any categories (currently not in use)
 categories = [ 
-	"Release", 
-	"Timedance" 
+	"Batu", 
+	"Timedance",
+	"Bristol"
 ]
 
 # Artist name
@@ -62,4 +63,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker.
+Batu returns exploring the relationship between light and dark timbres. Influences from dub wise aesthetics, with strong emotive melodies. Also, featuring a remix by Lee Gamble.
+
+140g record, mastered by Beau Thomas.
