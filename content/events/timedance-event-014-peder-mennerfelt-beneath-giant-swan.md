@@ -60,17 +60,17 @@ guestLabels04 = [
 ]
 
 # Time
-time = "23:00 – 04:00"
+time = "23:00 – 03:00"
 
 # Venue details
-venueName = "The Island"
-venueAddress = "Nelson St, Bristol. BS1 2LE"
+venueName = "The Island,Nelson St, Bristol. BS1 2LE"
+venueAddress = ""
 
 # Entry price
 entryPrice = "£12"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "#"
+tickets = "https://www.headfirstbristol.co.uk/#date=2017-04-22&event_id=37712"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
