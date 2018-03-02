@@ -68,7 +68,7 @@ venueAddress = "Nelson St, Bristol. BS1 2LE"
 entryPrice = "£14.50"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "#"
+tickets = "https://www.headfirstbristol.co.uk/#date=2018-01-20&event_id=42571"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
