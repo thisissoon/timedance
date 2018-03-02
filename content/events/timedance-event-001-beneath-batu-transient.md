@@ -77,7 +77,7 @@ venueAddress = "10, All Saints Lane, Bristol. BS1 1JH"
 entryPrice = "£5"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.residentadvisor.net/event.aspx?679740"
+tickets = ""
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
