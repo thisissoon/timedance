@@ -21,7 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Ploy", 
-	"Techno"
+	"Timedance",
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -63,4 +64,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Ploy follows up last years 'Iron Lungs' on Timedance with an EP of deep percussion exercises. 'Intrigued By The Drum' sees the London-based producer explore evolving rhythms and electronics. While the tone stays relentlessly tribal, Ploy variates on the theme. The opening tracks dread is balanced out by the warm, colourful strings on 'Zoom', whist 'Blow Poke' bounces with frenetic propulsion. The EP concludes with 'Bad Seed', where a sultry groove is programmed alongside the wooziest of pads. All four tracks showcase Ploy at his most subtle and accomplished, it's well worth the wait.
+Ploy follows up last years debut release with an EP of deep percussion excursuses, accompanied with evolving rhythms and electronics.
+
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Danielle Doobay 
