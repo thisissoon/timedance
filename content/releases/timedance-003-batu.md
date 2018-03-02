@@ -28,7 +28,7 @@ tags = [
 
 # Any categories (currently not in use)
 categories = [ 
-	"Batu", 
+	"Release", 
 	"Timedance",
 	""
 ]
