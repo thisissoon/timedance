@@ -20,6 +20,7 @@ type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
+	"Batu",
 	"Timedance", 
 	"Bristol"
 ]
@@ -60,6 +61,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Batu sets the bench mark for Timedance with his debut release outlining the labels platform for hybrids and mutations of UK Techno.
+Label boss Batu sets the bench mark for Timedance with his debut release outlining the labels platform for hybrids and mutations of UK Techno.
 
 140g record, mastered by Beau Thomas.
