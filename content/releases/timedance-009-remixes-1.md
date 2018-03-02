@@ -66,4 +66,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-For Timedance's ninth release the label has took the opportunity to offer some of it's favourite artists a chance to remix tracks from the back catalogue. 'Remixes -1' opens with a Stenny remix of Lurka's 'Beater'. The Illian Tape producer warps the drums from the original into his trademark cavernous rhythms, while dread filled drones circle in the background. Asusu takes Bruce's 'I'm Alright Mate' and twists the sounds into a techno trip, it's as subtle as it is banging, with impressive definition and depth. For the final remix, Bruce's 'Post Rave Wrestle' is flipped by Mosca into a low slung, spooky groover utilising wild feedback loops alongside distant haunting shouts. The three remixes are all as playable as they are interesting, fitting the aesthetic of the Bristol label.
+Remixes - 1 features three remixes by favourites Stenny, Asusu and Mosca. The three remixes are all as playable as they are interesting, fitting the Timedance aesthetic perfectly.
+
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Studio Tape Echo 
