@@ -66,7 +66,7 @@ venueAddress = ""
 entryPrice = "£15"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "#"
+tickets = "https://www.headfirstbristol.co.uk/whats-on/the-island/sat-30-sep-timedance-objekt-re-ni-40333"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
