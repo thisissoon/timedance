@@ -23,8 +23,9 @@ tags = [
 	"Ploy",
 	"Beatrice Dillon",
 	"Peder Mannerfelt", 
-	"Techno",
-	"Remixes"
+	"Remix",
+	"Timedance",
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -64,4 +65,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Timedance drops a second instalment of remixes, featuring two interpretations of the Ploy track "Footprints In Solid Rock", taken from last years Iron Lungs EP.Beatrice Dillon contributes first with a sublime, dubbed out trip. She strips back the percussion of the original and adds a single dreamlike chord, it's a real zoner. Peder Mannerfelt supplies the flip. The remix takes on a stomping yet minimal form, before dissolving into one of the most wigged out uber-rave breakdowns, designed for the late night sessions!​
+Remixes - 2 features two remixes from Beatrice Dillon and Pender Mannerfelt. Beatrice Dillon provides a real zoner whilst Peder Mannerfelt supplies something designed for late night sessions.
+
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Alex Digard / Tape Echo
