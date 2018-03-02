@@ -21,7 +21,8 @@ type = "Releases"
 # Any tags (comma-separated)
 tags = [ 
 	"Batu", 
-	"Techno"
+	"Timedance",
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
@@ -61,4 +62,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
+Timedance returns for its first record of 2017. Label boss Batu takes the reigns to present three shapeshifting beat experiments, packed full of twists and turns.
+
 140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels – artwork by Guillaume de Ubéda 
