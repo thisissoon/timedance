@@ -26,7 +26,8 @@ tags = [
 	"Asusu",
 	"Mosca",
 	"Remix",
-	"Techno"
+	"Timedance",
+	"Bristol"
 ]
 
 # Any categories (currently not in use)
