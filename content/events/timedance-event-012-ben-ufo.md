@@ -56,7 +56,7 @@ guestLabels04 = [
 ]
 
 # Time
-time = "23:00 – 04:00"
+time = "23:00 – 03:00"
 
 # Venue details
 venueName = "The Island"
