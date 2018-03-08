@@ -47,8 +47,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/murmur"
 bandcampTitle = "Murmur by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Syncsmith"
+newsLink01 = "http://www.syncsmith.com/timedance/"
 
 newsTitle02 = ""
 newsLink02 = ""
