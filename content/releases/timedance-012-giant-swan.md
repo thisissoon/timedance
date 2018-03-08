@@ -62,6 +62,7 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. The single features two assaults of frenetic rhythmic work outs, gully drops and punky vocals. 
+Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. 
+ 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Giant Swan
 
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Giant Swan 
