@@ -64,6 +64,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Ploy follows up last years debut release with an EP of deep percussion excursuses, accompanied with evolving rhythms and electronics.
+Ploy follows up his ‘Iron Lungs EP’, delving deeper into percussion exercises.
 
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Danielle Doobay 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Danielle Doobay
