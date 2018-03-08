@@ -50,8 +50,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/monolith-ep"
 bandcampTitle = "Monolith EP by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = "Synthsmith"
-newsLink01 = "http://www.syncsmith.com/timedance/"
+newsTitle01 = ""
+newsLink01 = ""
 
 newsTitle02 = ""
 newsLink02 = ""
