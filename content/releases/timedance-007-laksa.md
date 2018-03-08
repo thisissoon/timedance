@@ -62,6 +62,6 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Laksa debuts on Timedance delivering a refreshingly unique peak time dance floor track. Paired with a track learned for late night zoners on the flip.
-
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - artwork by Harry Butt 
+Laksa debuts on Timedance delivering the anthem ‘Contrasts’.
+ 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - artwork by Harry Butt
