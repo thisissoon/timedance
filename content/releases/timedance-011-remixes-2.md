@@ -65,6 +65,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Remixes - 2 features two remixes from Beatrice Dillon and Pender Mannerfelt. Beatrice Dillon provides a real zoner whilst Peder Mannerfelt supplies something designed for late night sessions.
-
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Alex Digard / Tape Echo
+Remixes - 2 features two re-imaginings of Ploy’s ‘Footprints In Solid Rock’ from Beatrice Dillon and Pender Mannerfelt.
+ 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Studio Tape Echo
