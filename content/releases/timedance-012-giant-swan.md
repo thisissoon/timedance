@@ -47,8 +47,8 @@ bandcampLink = "https://timedance.bandcamp.com/album/celebrate-the-last-30-years
 bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Mixmag"
+newsLink01 = "http://mixmag.net/read/premiere-giant-swan-celebrate-the-last-30-years-of-human-ego-with-a-spiky-punk-techno-hybrid-premieres"
 
 newsTitle02 = ""
 newsLink02 = "#"
