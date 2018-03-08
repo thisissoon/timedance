@@ -62,3 +62,5 @@ newsLink04 = "#"
 
 <!-- Provide a summary/statement below -->
 L.SAE creates a distinctive raw, atmospheric sound palette.
+
+140g record, mastered by Beau Thomas.
