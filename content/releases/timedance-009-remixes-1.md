@@ -67,6 +67,7 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Remixes - 1 features three remixes by favourites Stenny, Asusu and Mosca. The three remixes are all as playable as they are interesting, fitting the Timedance aesthetic perfectly.
+Remixes - 1 features three remixes from Timedance favourites Stenny, Asusu and Mosca.
+ 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Studio Tape Echo
 
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels - art by Studio Tape Echo 
