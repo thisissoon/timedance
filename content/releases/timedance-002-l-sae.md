@@ -61,6 +61,4 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-L.SAE creates a distinctively raw, atmospheric sound palette. Traveling further into dark, off kilter UK techno territory.
-
-140g record, mastered by Beau Thomas.
+L.SAE creates a distinctive raw, atmospheric sound palette.
