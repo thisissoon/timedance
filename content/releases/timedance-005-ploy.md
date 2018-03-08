@@ -62,6 +62,7 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Ploy displays his ear for striking, off-kilter ideas, whilst staying aware of dance floor functionality with his debut release for Timedance.
+Ploy displays his ear for striking, off-kilter ideas with his debut release for Timedance.
+ 
+140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Danielle Doobay
 
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Danielle Doobay 
