@@ -61,6 +61,7 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Lurka debuts with some of his finest and most experimental work yet. Combing his trademark percussion patterns with rippling arps and deep sub bass.
-
+Lurka joins the Timedance ranks with some of his finest work yet.
+ 
 140g record, mastered by Beau Thomas. Black sleeve w/ sticker and centre labels – painting by Bruce
+
