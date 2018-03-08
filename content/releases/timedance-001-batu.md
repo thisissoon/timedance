@@ -61,6 +61,7 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Label boss Batu sets the bench mark for Timedance with his debut release outlining the labels platform for hybrids and mutations of UK Techno.
-
+Label boss Batu sets the benchmark for Timedance with the debut release on the imprint.
+ 
 140g record, mastered by Beau Thomas.
+
