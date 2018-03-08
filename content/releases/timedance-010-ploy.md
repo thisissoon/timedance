@@ -49,8 +49,8 @@ bandcampLink = "https://timedance.bandcamp.com/album/intrigued-by-the-drum"
 bandcampTitle = "Intrigued By The Drum"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Inverted Audio"
+newsLink01 = "http://inverted-audio.com/feature/in-perspective-ploy-talks-up-intrigued-by-the-drum-ep-on-timedance/"
 
 newsTitle02 = ""
 newsLink02 = "#"
