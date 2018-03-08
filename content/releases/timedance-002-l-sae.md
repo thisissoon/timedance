@@ -46,8 +46,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/the-west-end-as-it-will-be-l
 bandcampTitle = "The West End As It Will Be / Line Sunk Like I&#39;m Sunk by L.SAE"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Hyponik"
+newsLink01 = "http://hyponik.com/features/first-listen-l-sae-line-sunk-like-im-sunk-timedance/"
 
 newsTitle02 = ""
 newsLink02 = "#"
