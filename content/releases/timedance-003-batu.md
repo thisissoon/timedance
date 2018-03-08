@@ -65,6 +65,7 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Batu returns exploring the relationship between light and dark timbres. Influences from dub wise aesthetics, with strong emotive melodies. Featuring a remix by Lee Gamble.
+Batu returns with his first four track EP, featuring a remix from Lee Gamble.
 
 140g record, mastered by Beau Thomas.
+
