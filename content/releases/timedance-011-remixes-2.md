@@ -50,8 +50,8 @@ bandcampLink = "https://timedance.bandcamp.com/album/remixes-2"
 bandcampTitle = "Remixes - 2"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "RA"
+newsLink01 = "https://www.residentadvisor.net/news.aspx?id=39924"
 
 newsTitle02 = ""
 newsLink02 = "#"
