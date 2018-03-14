@@ -46,8 +46,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/im-alright-mate-post-rave-wr
 bandcampTitle = "I&#39;m Alright Mate / Post Rave Wrestle by Bruce"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Mixmag"
+newsLink01 = "http://mixmag.net/read/bruce-takes-charge-of-next-timedance-release-news"
 
 newsTitle02 = ""
 newsLink02 = "#"
