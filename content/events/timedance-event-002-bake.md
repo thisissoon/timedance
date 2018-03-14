@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Event title
-title = "8th May 2015 - Bake"
+title = "8th/05/2015 - Bake"
 
 # Event date
 date = "2015-05-08T00:00:01Z"
