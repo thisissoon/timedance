@@ -46,8 +46,9 @@ bandcampLink = "http://timedance.bandcamp.com/album/cardinal-domino-theory"
 bandcampTitle = "Cardinal / Domino Theory by Batu"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = "RA review"
-newsLink01 = ""
+newsTitle01 = "RA"
+newsLink01 = "https://boilerroom.tv/batu-domino-theory/
+"
 
 newsTitle02 = "Juno Plus review"
 newsLink02 = ""
