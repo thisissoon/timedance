@@ -52,8 +52,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/remixes-1"
 bandcampTitle = "Remixes - 1 by Lurka / Bruce"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "RA"
+newsLink01 = "https://www.residentadvisor.net/news.aspx?id=39250"
 
 newsTitle02 = ""
 newsLink02 = ""
