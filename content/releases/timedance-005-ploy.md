@@ -47,8 +47,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/iron-lungs-ep"
 bandcampTitle = "Iron Lungs EP by Ploy"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "RA"
+newsLink01 = "https://www.residentadvisor.net/news.aspx?id=35407"
 
 newsTitle02 = ""
 newsLink02 = "#"
