@@ -46,8 +46,8 @@ bandcampLink = "http://timedance.bandcamp.com/album/beater-density"
 bandcampTitle = "Beater / Density by Lurka"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = ""
-newsLink01 = ""
+newsTitle01 = "Factmag"
+newsLink01 = "http://www.factmag.com/2016/05/09/lurka-beater-ep-timedance-stream/"
 
 newsTitle02 = ""
 newsLink02 = ""
