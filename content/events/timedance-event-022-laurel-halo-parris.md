@@ -7,10 +7,10 @@ draft = false
 description = ""
 
 # Event title
-title = "20th - January 2018 - Lena Willikens, Batu"
+title = "10/03/2018 - Laurel Halo, Parris"
 
 # Event date
-date = "2018-01-20T00:00:01Z"
+date = "2018-03-10T00:00:01Z"
 
 
 # Artwork (see image guidelines)
