@@ -14,15 +14,15 @@ date = "2018-01-20T00:00:01Z"
 
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-021-lena-willikens-batu.jpg"
+image = "events/timedance-event-022-laurel-halo-parris.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Lena Willikens",
-	"Batu"
+	"Laurel Halo",
+	"Parris"
 ]
 
 # Any categories (currently not in use)
@@ -32,17 +32,19 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Lena Willikens"
+guestName01 = "Laurel Halo"
 
 guestLabels01 = [
-	"Comeme"
+	"Hyperdub",
+	"Honest JOns"
 ]
 
-guestName02 = "Batu"
+guestName02 = "Parris"
 
 guestLabels02 = [
-	"Timedance",
-	"Hessle Audio"
+	"The Trilogy Tapes",
+	"Idle Hands",
+	"Soundman Chronicles"
 ]
 
 guestName03 = ""
@@ -65,10 +67,10 @@ venueName = "The Island"
 venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
-entryPrice = "£14.50"
+entryPrice = "£13.70"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "#"
+tickets = "https://www.headfirstbristol.co.uk/#date=2018-03-10&event_id=43665"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = "Facebook event"
