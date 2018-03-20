@@ -73,13 +73,13 @@ entryPrice = "£13.70"
 tickets = "https://www.headfirstbristol.co.uk/#date=2018-03-10&event_id=43665"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
-eventTitle01 = "Facebook event"
+eventTitle01 = ""
 eventLink01 = ""
 
-eventTitle02 = "RA event"
+eventTitle02 = ""
 eventLink02 = ""
 
-eventTitle03 = "Mix"
+eventTitle03 = ""
 eventLink03 = ""
 
 eventTitle04 = ""
