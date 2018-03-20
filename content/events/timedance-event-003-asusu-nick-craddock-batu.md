@@ -78,8 +78,8 @@ entryPrice = "£5"
 tickets = ""
 
 # Any news relating to this event should go here. Be sure to provide a title and link
-eventTitle01 = "Facebook event"
-eventLink01 = "#"
+eventTitle01 = ""
+eventLink01 = ""
 
 eventTitle02 = ""
 eventLink02 = ""
