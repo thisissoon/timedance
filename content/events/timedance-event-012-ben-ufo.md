@@ -59,7 +59,7 @@ guestLabels04 = [
 time = "23:00 – 03:00"
 
 # Venue details
-venueName = "The Island,"
+venueName = "The Island"
 venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
