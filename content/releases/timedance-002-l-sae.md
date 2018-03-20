@@ -50,13 +50,13 @@ newsTitle01 = "Factmag"
 newsLink01 = "http://www.factmag.com/2015/08/04/batus-timedance-prep-12-of-noisy-techno-from-l-sae-aka-metrist/"
 
 newsTitle02 = ""
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = ""
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = ""
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
