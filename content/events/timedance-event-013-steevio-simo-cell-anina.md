@@ -61,8 +61,8 @@ guestLabels04 = [
 time = "23:00 – 03:00"
 
 # Venue details
-venueName = "The Island, Nelson St, Bristol. BS1 2L"
-venueAddress = ""
+venueName = "The Island,"
+venueAddress = "Nelson St, Bristol. BS1 2L"
 
 # Entry price
 entryPrice = "£10"
@@ -71,13 +71,13 @@ entryPrice = "£10"
 tickets = "https://www.headfirstbristol.co.uk/whats-on/the-island/sat-18-mar-timedance-steevio-live-simo-cell-anina-36799"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
-eventTitle01 = "Facebook event"
+eventTitle01 = ""
 eventLink01 = ""
 
-eventTitle02 = "RA event"
+eventTitle02 = ""
 eventLink02 = ""
 
-eventTitle03 = "Mix"
+eventTitle03 = ""
 eventLink03 = ""
 
 eventTitle04 = ""
