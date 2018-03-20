@@ -51,13 +51,13 @@ newsTitle01 = "Mixmag"
 newsLink01 = "http://mixmag.net/read/premiere-giant-swan-celebrate-the-last-30-years-of-human-ego-with-a-spiky-punk-techno-hybrid-premieres"
 
 newsTitle02 = ""
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = ""
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = ""
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
