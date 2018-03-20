@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Release title
-title = "L.SAE - The West End As It Will Be / Line Sunk Like I'm Sunk"
+title = "L.SAE – The West End As It Will Be / Line Sunk Like I'm Sunk"
 
 # Release date
 date = "2015-09-11T00:00:01Z"
