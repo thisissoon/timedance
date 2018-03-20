@@ -65,7 +65,7 @@ time = "22:00 – 03:00"
 
 # Venue details
 venueName = "The Island,"
-venueAddress = "Bridewell Street, Bristol. BS1 2LE"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£5"
