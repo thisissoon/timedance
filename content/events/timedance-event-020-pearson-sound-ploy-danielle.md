@@ -62,8 +62,8 @@ guestLabels04 = [
 time = "22:00 – 03:00"
 
 # Venue details
-venueName = "The Island, Nelson St, Bristol. BS1 2LE"
-venueAddress = ""
+venueName = "The Island,"
+venueAddress = " Nelson St, Bristol. BS1 2LE "
 
 # Entry price
 entryPrice = "£12.50"
@@ -72,13 +72,13 @@ entryPrice = "£12.50"
 tickets = "https://www.headfirstbristol.co.uk/#date=2017-11-18&event_id=41466"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
-eventTitle01 = "Facebook event"
+eventTitle01 = ""
 eventLink01 = ""
 
-eventTitle02 = "RA event"
+eventTitle02 = ""
 eventLink02 = ""
 
-eventTitle03 = "Mix"
+eventTitle03 = ""
 eventLink03 = ""
 
 eventTitle04 = ""
