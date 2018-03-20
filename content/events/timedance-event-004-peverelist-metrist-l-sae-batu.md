@@ -68,7 +68,7 @@ time = "22:00 – 03:00"
 
 # Venue details
 venueName = "The Island"
-venueAddress = "Bridewell Street, Bristol. BS1 2LE"
+venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
 entryPrice = "£7"
@@ -77,8 +77,8 @@ entryPrice = "£7"
 tickets = ""
 
 # Any news relating to this event should go here. Be sure to provide a title and link
-eventTitle01 = "Facebook event"
-eventLink01 = "#"
+eventTitle01 = ""
+eventLink01 = ""
 
 eventTitle02 = ""
 eventLink02 = ""
