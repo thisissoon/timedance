@@ -73,13 +73,13 @@ entryPrice = "£8"
 tickets = "#"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
-eventTitle01 = "Facebook event"
+eventTitle01 = ""
 eventLink01 = ""
 
-eventTitle02 = "RA event"
+eventTitle02 = ""
 eventLink02 = ""
 
-eventTitle03 = "Mix"
+eventTitle03 = ""
 eventLink03 = ""
 
 eventTitle04 = ""
