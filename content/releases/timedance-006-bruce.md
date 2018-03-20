@@ -50,13 +50,13 @@ newsTitle01 = "Mixmag"
 newsLink01 = "http://mixmag.net/read/bruce-takes-charge-of-next-timedance-release-news"
 
 newsTitle02 = ""
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = ""
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = ""
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
