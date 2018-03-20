@@ -54,13 +54,13 @@ newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=39924"
 
 newsTitle02 = ""
-newsLink02 = "#"
+newsLink02 = ""
 
 newsTitle03 = ""
-newsLink03 = "#"
+newsLink03 = ""
 
 newsTitle04 = ""
-newsLink04 = "#"
+newsLink04 = ""
 
 +++
 
