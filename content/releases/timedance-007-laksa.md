@@ -47,7 +47,7 @@ bandcampLink = "http://timedance.bandcamp.com/album/contrasts"
 bandcampTitle = "Contrasts by Laksa"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = "Laksa"
+newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=37120"
 
 newsTitle02 = ""
