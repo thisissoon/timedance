@@ -70,7 +70,7 @@ venueAddress = "Frewin Court, Oxford. OX1 3HZ"
 entryPrice = "£8"
 
 # Link to tickets e.g. RA, Crack 
-tickets = 
+tickets = ""
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = ""
