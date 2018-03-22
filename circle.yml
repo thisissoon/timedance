@@ -19,4 +19,4 @@ deployment:
     branch: master
     commands:
       - hugo
-      - sh deploy.sh timedance-soon-build
+      - sh deploy.sh www.timedancemusic.com
