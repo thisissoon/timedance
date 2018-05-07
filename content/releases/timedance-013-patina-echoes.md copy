@@ -7,10 +7,10 @@ draft = false
 description = ""
 
 # Release title
-title = "Giant Swan – Celebrate The Last 30 Years Of Human Ego"
+title = "Patina Echoes"
 
 # Release date
-date = "2017-10-27T00:00:01Z"
+date = "2018-05-25T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "releases/timedance-012-giant-swan.jpg"
@@ -20,7 +20,7 @@ type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Giant Swan", 
+	"Patina Echoes", 
 	"Timedance",
 	"Bristol"
 ]
@@ -32,29 +32,48 @@ categories = [
 ]
 
 # Artist name
-artist = "Giant Swan"
+artist = "Cleyra",
+	 "rRoxymore",
+	 "Chekov",
+	 "Via Maris",
+	 "Simo Cell",
+	 "Rae",
+	 "Metrist",
+	 "Bruce",
+	 "Neinzer",
+	 "Nico",
+	 "Ploy"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Celebrate The Last 30 Years Of Human Ego",
-	"2. IFTLOYL"
+	"1. Naked",
+	"2. bBRINGTHEbRAVE",
+	"3. Stasis 113",
+	"4. Side Effects".
+	"5. Consider The Internet",
+	"6. Sleep Rotation",
+	"7. Auid Flaurist",
+	"8. Let's Make The Most Of Our Time Here",
+	"9. Horus",
+	"10. Soft Opening",
+	"11. =0"
 	
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "222732918"
-bandcampLink = "https://timedance.bandcamp.com/album/celebrate-the-last-30-years-of-human-ego-iftloyl"
-bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
+bandcampTrack = "2671492522"
+bandcampLink = "http://timedance.bandcamp.com/album/patina-echoes"
+bandcampTitle = "Patina Echoes"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
-newsTitle01 = "Mixmag"
-newsLink01 = "http://mixmag.net/read/premiere-giant-swan-celebrate-the-last-30-years-of-human-ego-with-a-spiky-punk-techno-hybrid-premieres"
+newsTitle01 = "Fact Mag"
+newsLink01 = "http://www.factmag.com/2018/04/25/timedance-patina-echoes-compilation/"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Mixmag"
+newsLink02 = "http://mixmag.net/read/rroxymore-and-bruce-feature-on-debut-timedance-compilation-patina-echoes-news"
 
-newsTitle03 = ""
-newsLink03 = ""
+newsTitle03 = "Resident Advisor"
+newsLink03 = "https://www.residentadvisor.net/news.aspx?id=41614"
 
 newsTitle04 = ""
 newsLink04 = ""
@@ -62,7 +81,9 @@ newsLink04 = ""
 +++
 
 <!-- Provide a summary/statement below -->
-Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. 
- 
-140g record, mastered by Beau Thomas. Black sleeve w/ sticker - art by Giant Swan
+Timedance's first releases of 2018 sees the label embark on a new journey. 
+The Patina Echoes compilation is a collection of tracks from a new exciting breed of young producers worldwide. 
+Designed as coherent long-player, every track combines an aesthetic of synthetic sounds imitating natural phenomena. 
+The range of outcomes is captivating and unified, a mission statement of a younger generation driving to create forward thinking, 
+exciting electronic music.
 
