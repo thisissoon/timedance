@@ -7,10 +7,10 @@ draft = false
 description = ""
 
 # Event title
-title = "10/03/2018 – Laurel Halo, Parris"
+title = "2/06/2018 – Swing Ting, Batu"
 
 # Event date
-date = "2018-03-10T00:00:01Z"
+date = "2018-06-02T00:00:01Z"
 
 
 # Artwork (see image guidelines)
@@ -21,8 +21,8 @@ type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Laurel Halo",
-	"Parris"
+	"Swing Ting",
+	"Batu"
 ]
 
 # Any categories (currently not in use)
@@ -32,19 +32,19 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Laurel Halo"
+guestName01 = "Swing Ting"
 
 guestLabels01 = [
-	"Hyperdub",
-	"Honest JOns"
+	"",
+	""
 ]
 
-guestName02 = "Parris"
+guestName02 = "Batu"
 
 guestLabels02 = [
-	"The Trilogy Tapes",
-	"Idle Hands",
-	"Soundman Chronicles"
+	"Timedance",
+	"Hessle Audio",
+	""
 ]
 
 guestName03 = ""
@@ -67,10 +67,10 @@ venueName = "The Island"
 venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
-entryPrice = "£13.70"
+entryPrice = "£12.00"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.headfirstbristol.co.uk/#date=2018-03-10&event_id=43665"
+tickets = "https://www.headfirstbristol.co.uk/#date=2018-06-02&event_id=45739"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = ""
