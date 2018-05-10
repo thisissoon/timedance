@@ -10,7 +10,10 @@ description = ""
 title = "Patina Echoes"
 
 # Release date
-date = "2018-05-05T00:00:01Z"
+date = "2018-05-25T00:00:01Z"
+
+# Publish date
+publishDate = "2018-05-10T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "releases/timedance-013-patina-echoes.jpg"
@@ -32,19 +35,7 @@ categories = [
 ]
 
 # Artist name
-artist = [
-	"Cleyra",
-	"rRoxymore",
-	"Chekov",
-	"Via Maris",
-	"Simo Cell",
-	"Rae",
-	"Metrist",
-	"Bruce",
-	"Neinzer",
-	"Nico",
-	"Ploy"
-]
+artist = "Patina Echoes"
 
 # Track names (comma-separated)
 tracks = [

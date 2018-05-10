@@ -12,6 +12,8 @@ title = "2/06/2018 – Swing Ting, Batu"
 # Event date
 date = "2018-06-02T00:00:01Z"
 
+# Publish date
+publishDate = "2018-05-10T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "events/timedance-event-023-swing-ting-batu.jpg"
@@ -35,7 +37,6 @@ categories = [
 guestName01 = "Swing Ting"
 
 guestLabels01 = [
-	"",
 	""
 ]
 
