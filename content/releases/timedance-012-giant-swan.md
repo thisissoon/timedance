@@ -50,8 +50,8 @@ bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
 newsTitle01 = "Mixmag"
 newsLink01 = "http://mixmag.net/read/premiere-giant-swan-celebrate-the-last-30-years-of-human-ego-with-a-spiky-punk-techno-hybrid-premieres"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Rinse mix"
+newsLink02 = "https://soundcloud.com/rinsefm/wenandparris261017"
 
 newsTitle03 = ""
 newsLink03 = ""
