@@ -52,11 +52,11 @@ bandcampTitle = "Intrigued By The Drum"
 newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=39924"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Ploy FACT mix"
+newsLink02 = "https://soundcloud.com/factmag/fact-mix-622-ploy-sept-17"
 
-newsTitle03 = ""
-newsLink03 = ""
+newsTitle03 = "Inverted Audio interveiw"
+newsLink03 = "http://inverted-audio.com/feature/in-perspective-ploy-talks-up-intrigued-by-the-drum-ep-on-timedance/"
 
 newsTitle04 = ""
 newsLink04 = ""
