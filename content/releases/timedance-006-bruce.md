@@ -49,8 +49,8 @@ bandcampTitle = "I&#39;m Alright Mate / Post Rave Wrestle by Bruce"
 newsTitle01 = "Mixmag"
 newsLink01 = "http://mixmag.net/read/bruce-takes-charge-of-next-timedance-release-news"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Juno Plus Mix and interveiw"
+newsLink02 = "https://www.junodownload.com/plus/2016/09/16/juno-plus-podcast-148-bruce/"
 
 newsTitle03 = ""
 newsLink03 = ""
