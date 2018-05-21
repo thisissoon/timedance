@@ -36,7 +36,7 @@ guestName01 = "Laurel Halo"
 
 guestLabels01 = [
 	"Hyperdub",
-	"Honest JOns"
+	"Honest Jons"
 ]
 
 guestName02 = "Parris"
