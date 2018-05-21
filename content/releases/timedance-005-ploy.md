@@ -50,8 +50,8 @@ bandcampTitle = "Iron Lungs EP by Ploy"
 newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=35407"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Truants mix + interveiw"
+newsLink02 = "http://truantsblog.com/2016/truancy-volume-154-ploy/"
 
 newsTitle03 = ""
 newsLink03 = ""
