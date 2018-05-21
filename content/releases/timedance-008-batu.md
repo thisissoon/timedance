@@ -50,11 +50,11 @@ bandcampTitle = "Murmur by Batu"
 newsTitle01 = "Mixmag"
 newsLink01 = "http://mixmag.net/read/premiere-batus-whisper-is-a-warped-techno-tour-de-force-premieres"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Batu FACT mix"
+newsLink02 = "https://soundcloud.com/factmag/fact-mix-588-batu-feb-17"
 
-newsTitle03 = ""
-newsLink03 = ""
+newsTitle03 = "RBMA interveiw"
+newsLink03 = "http://daily.redbullmusicacademy.com/2017/02/batu-interview"
 
 newsTitle04 = ""
 newsLink04 = ""
