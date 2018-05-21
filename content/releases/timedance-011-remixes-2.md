@@ -53,8 +53,8 @@ bandcampTitle = "Remixes - 2"
 newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=39924"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "Ploy Fact mix"
+newsLink02 = "https://soundcloud.com/factmag/fact-mix-622-ploy-sept-17"
 
 newsTitle03 = ""
 newsLink03 = ""
