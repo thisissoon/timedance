@@ -7,7 +7,7 @@ draft = false
 description = ""
 
 # Release title
-title = "Patina Echoes"
+title = "Various Artists - Patina Echoes"
 
 # Release date
 date = "2018-05-25T00:00:01Z"
@@ -25,7 +25,8 @@ type = "Releases"
 tags = [ 
 	"Patina Echoes", 
 	"Timedance",
-	"Bristol"
+	"Bristol",
+	"Compilation"
 ]
 
 # Any categories (currently not in use)
