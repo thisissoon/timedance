@@ -50,8 +50,8 @@ bandcampTitle = "Contrasts by Laksa"
 newsTitle01 = "RA"
 newsLink01 = "https://www.residentadvisor.net/news.aspx?id=37120"
 
-newsTitle02 = ""
-newsLink02 = ""
+newsTitle02 = "EE Mix"
+newsLink02 = "https://soundcloud.com/rob_booth/laksa-456-electronic-explorations"
 
 newsTitle03 = ""
 newsLink03 = ""
