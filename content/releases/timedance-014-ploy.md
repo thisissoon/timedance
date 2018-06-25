@@ -10,7 +10,7 @@ description = ""
 title = "Ploy – Ramos"
 
 # Release date
-date = "2018-06-29T00:00:01Z"
+date = "2018-06-20T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "releases/timedance-014-ploy.jpg"
