@@ -1,7 +1,7 @@
 +++
 
 # true equals unpublished and will not be seen, false equals published and will be seen
-draft = false
+draft = "false"
 
 # Custom meta description (this will override default meta description)
 description = ""
