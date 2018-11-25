@@ -7,21 +7,21 @@ draft = false
 description = ""
 
 # Release title
-title = "Giant Swan - Celebrate The Last 30 Years Of Human Ego"
+title = "Laksa - The Amala Trick"
 
 # Release date
-date = "2017-10-27T00:00:01Z"
+date = "2018-11-23T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-012-giant-swan.jpg"
+image = "releases/timedance-016-laksa.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Giant Swan", 
-	"Death Metal",
+	"Laksa", 
+	"Techno",
 	"Electronic"
 ]
 
@@ -32,19 +32,19 @@ categories = [
 ]
 
 # Artist name
-artist = "Giant Swan"
+artist = "Laksa"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Celebrate The Last 30 Years Of Human Ego",
-	"2. IFTLOYL"
+	"1. The Amala Trick",
+	"2. In The Middle"
 	
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = "222732918"
-bandcampLink = "https://timedance.bandcamp.com/album/celebrate-the-last-30-years-of-human-ego-iftloyl"
-bandcampTitle = "Celebrate The Last 30 Years Of Human Ego / IFTLOYL"
+bandcampTrack = "561168343"
+bandcampLink = "http://laksa.bandcamp.com/album/the-amala-trick-in-the-middle"
+bandcampTitle = "he Amala Trick / In The Middle by Laksa"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
@@ -62,4 +62,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Bristol upstarts Giant Swan bring their distinct brand of chaotic noise to Timedance. Fresh from a series of high profile gigs and a feature in The Wire, the duo release their first single of 2017, the most refined work they have showcased yet. The single features two assaults of frenetic rhythmic work outs, gully drops and punky vocals - cementing their place as one of the most exciting up and comers in dance music right now. 
+Laksa returns to Timedance with two of his most refined tracks to date. Striking a balance devastating between immersive and groovy, The Amala Trick and In The Middle show the London producers singular, propulsive sound at its best. 
+
+Artwork by Harry Butt
