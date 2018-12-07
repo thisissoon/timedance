@@ -14,12 +14,18 @@ jobs:
       - run: go get -v github.com/spf13/hugo
 
   test:
+    working_directory: ~/timedance
+    docker:
+      - image: circleci/golang:1.11
     steps:
       - run:
           name: tests
           command: echo "test"
   
   deploy:
+    working_directory: ~/timedance
+    docker:
+      - image: circleci/golang:1.11
     steps:
       - run:
           name: hugo
