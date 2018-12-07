@@ -1,10 +1,13 @@
 #
 # Timedance CircleCI Configuration
 #
-
-machine:
-  environment:
-    TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.8 #
+    environment:
+      TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
 
 dependencies:
   pre:
