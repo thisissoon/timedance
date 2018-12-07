@@ -19,7 +19,7 @@ jobs:
           command: hugo
       - run:
           name: install dependencies
-          command: sudo apt-get update && apt-get install -y awscli
+          command: sudo apt-get update && sudo apt-get install -y awscli
       - run:
           name: deploy
           command: sh deploy.sh www.timedancemusic.com
