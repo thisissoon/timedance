@@ -4,22 +4,41 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/timedance
     docker:
-      - image: circleci/golang:1.8 #
+      - image: circleci/golang:1.11
     environment:
       TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
+    steps:
+      - checkout
+      - run: go get -v github.com/spf13/hugo
 
-dependencies:
-  pre:
-    - go get -v github.com/spf13/hugo
+  test:
+    steps:
+      - run:
+          name: tests
+          command: echo "test"
+  
+  deploy:
+    steps:
+      - run:
+          name: hugo
+          command: hugo
+      - run:
+          name: deploy
+          command: sh deploy.sh www.timedancemusic.com
 
-test:
-  override:
-    - echo "test"
-
-deployment:
-  prod:
-    branch: master
-    commands:
-      - hugo
-      - sh deploy.sh www.timedancemusic.com
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only: master
