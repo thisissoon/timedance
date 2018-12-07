@@ -11,24 +11,9 @@ jobs:
     steps:
       - checkout
       - run: go get -v github.com/spf13/hugo
-
-  test:
-    docker:
-      - image: circleci/golang:1.11
-    steps:
       - run:
           name: tests
           command: echo "test"
-  
-  deploy:
-    docker:
-      - image: circleci/golang:1.11
-    branches:
-      only:
-        - master
-    steps:
-      - checkout
-      - run: go get -v github.com/spf13/hugo
       - run:
           name: hugo
           command: hugo
