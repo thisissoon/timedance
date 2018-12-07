@@ -23,25 +23,15 @@ jobs:
   deploy:
     docker:
       - image: circleci/golang:1.11
+    branches:
+      only:
+        - master
     steps:
+      - checkout
+      - run: go get -v github.com/spf13/hugo
       - run:
           name: hugo
           command: hugo
       - run:
           name: deploy
           command: sh deploy.sh www.timedancemusic.com
-
-workflows:
-  version: 2
-  deploy:
-    jobs:
-      - build
-      - test:
-          requires:
-            - build
-      - deploy:
-          requires:
-            - test
-          filters:
-            branches:
-              only: master
