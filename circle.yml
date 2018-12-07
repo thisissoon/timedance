@@ -4,7 +4,6 @@
 version: 2
 jobs:
   build:
-    working_directory: /home/ubuntu/timedance
     docker:
       - image: circleci/golang:1.11
     environment:
@@ -14,7 +13,6 @@ jobs:
       - run: go get -v github.com/spf13/hugo
 
   test:
-    working_directory: /home/ubuntu/timedance
     docker:
       - image: circleci/golang:1.11
     steps:
@@ -23,7 +21,6 @@ jobs:
           command: echo "test"
   
   deploy:
-    working_directory: /home/ubuntu/timedance
     docker:
       - image: circleci/golang:1.11
     steps:
