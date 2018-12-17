@@ -7,10 +7,10 @@ draft = "false"
 description = ""
 
 # Release title
-title = "Lurka - Heat Mover"
+title = "Laksa - The Amala Trick"
 
 # Release date
-date = "2018-09-14T00:00:01Z"
+date = "2018-11-23T00:00:01Z"
 
 # Artwork (see image guidelines)
 image = "releases/timedance-015-lurka.jpg"
@@ -20,7 +20,7 @@ type = "Releases"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Lurka", 
+	"Laksa", 
 	"Techno",
 	"Bass"
 ]
@@ -32,19 +32,19 @@ categories = [
 ]
 
 # Artist name
-artist = "Lurka"
+artist = "Laksa"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Heat Mover",
-	"2. Battery"
+	"1. The Amala Trick",
+	"2. In The Middle"
 	
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = ""
-bandcampLink = ""
-bandcampTitle = ""
+bandcampTrack = "561168343"
+bandcampLink = "http://laksa.bandcamp.com/album/the-amala-trick-in-the-middle"
+bandcampTitle = "The Amala Trick / In The Middle by Laksa"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
@@ -62,4 +62,6 @@ newsLink04 = "#"
 +++
 
 <!-- Provide a summary/statement below -->
-Lurka returns to Timedance with the follow to his 2016 single Beater. The Bristol producer turns the dial up to eleven here with two expertly designed carnival stompers. 
+Laksa returns to Timedance with two of his most refined tracks to date. Striking a balance devastating between immersive and groovy, The Amala Trick and In The Middle show the London producers singular, propulsive sound at its best. 
+
+Artwork by Harry Butt 
