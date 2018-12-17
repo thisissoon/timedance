@@ -7,24 +7,25 @@ draft = false
 description = ""
 
 # Event title
-title = "2/06/2018 – Swing Ting, Batu"
+title = "06/10/2018 – Bruce, Mun Sing, Sybil"
 
 # Event date
-date = "2018-06-02T00:00:01Z"
+date = "2018-10-06T00:00:01Z"
 
 # Publish date
 publishDate = "2018-05-10T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-023-swing-ting-batu.jpg"
+image = "events/timedance-event-024-final-chapter-1.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Swing Ting",
-	"Batu"
+	"Bruce",
+	"Mun Sing",
+	"Sybil"
 ]
 
 # Any categories (currently not in use)
@@ -34,21 +35,22 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Swing Ting"
+guestName01 = "Bruce"
 
 guestLabels01 = [
-	""
+	"Timedance",
+	"Hessle Audio"
 ]
 
-guestName02 = "Batu"
+guestName02 = "Mun Sing"
 
 guestLabels02 = [
-	"Timedance",
-	"Hessle Audio",
+	"",
+	"",
 	""
 ]
 
-guestName03 = ""
+guestName03 = "Sybil"
 
 guestLabels03 = [
 	""
@@ -71,7 +73,7 @@ venueAddress = "Nelson St, Bristol. BS1 2LE"
 entryPrice = "£12.00"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.headfirstbristol.co.uk/#date=2018-06-02&event_id=45739"
+tickets = "https://www.headfirstbristol.co.uk/#date=2018-10-06&event_id=48134"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = ""
