@@ -7,23 +7,23 @@ draft = false
 description = ""
 
 # Event title
-title = "2/06/2018 – Swing Ting, Batu"
+title = "14/12/2018 – Dj Nobu, Batu"
 
 # Event date
-date = "2018-06-02T00:00:01Z"
+date = "2018-12-14T00:00:01Z"
 
 # Publish date
 publishDate = "2018-05-10T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "events/timedance-event-023-swing-ting-batu.jpg"
+image = "events/timedance-event-026-final-chapter-3.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Events"
 
 # Any tags (comma-separated)
 tags = [ 
-	"Swing Ting",
+	"Dj Nobu",
 	"Batu"
 ]
 
@@ -34,7 +34,7 @@ categories = [
 ]
 
 # Guest names and labels
-guestName01 = "Swing Ting"
+guestName01 = "Dj Nobu"
 
 guestLabels01 = [
 	""
@@ -61,17 +61,17 @@ guestLabels04 = [
 ]
 
 # Time
-time = "22:00 – 03:00"
+time = "22:00 – 05:00"
 
 # Venue details
 venueName = "The Island"
 venueAddress = "Nelson St, Bristol. BS1 2LE"
 
 # Entry price
-entryPrice = "£12.00"
+entryPrice = "£15.00"
 
 # Link to tickets e.g. RA, Crack 
-tickets = "https://www.headfirstbristol.co.uk/#date=2018-06-02&event_id=45739"
+tickets = "https://www.headfirstbristol.co.uk/whats-on/the-island/fri-14-dec-timedance-final-chapter-pt-iii--48131"
 
 # Any links relating to this release e.g. Facebook event page. Provide a title and link
 eventTitle01 = ""
