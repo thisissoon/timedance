@@ -13,7 +13,7 @@ title = "Laksa - The Amala Trick"
 date = "2018-11-23T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-015-lurka.jpg"
+image = "releases/timedance-016-laksa.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
