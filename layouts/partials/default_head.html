@@ -28,15 +28,19 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animation.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/head.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/foot.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/single.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/links.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pagination.css">
+        {{ $styles := resources.Get "css/styles.css" }}
+        {{ $font := resources.Get "css/font.css" }}
+        {{ $main := resources.Get "css/main.css" }}
+        {{ $animation := resources.Get "css/animation.css" }}
+        {{ $head := resources.Get "css/head.css" }}
+        {{ $foot := resources.Get "css/foot.css" }}
+        {{ $single := resources.Get "css/single.css" }}
+        {{ $links := resources.Get "css/links.css" }}
+        {{ $pagination := resources.Get "css/pagination.css" }}
+
+        {{ $allStyles := slice $styles $font $main $animation $head $foot $single $links $pagination | resources.Concat "all.css" | resources.Minify }}
+        <link rel="stylesheet" href="{{ $allStyles.Permalink }}">
+
 
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.BaseURL }}/index.xml">
 
