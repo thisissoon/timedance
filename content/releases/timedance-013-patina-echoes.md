@@ -40,17 +40,17 @@ artist = "Patina Echoes"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Naked",
-	"2. bBRINGTHEbRAVE",
-	"3. Stasis 113",
-	"4. Side Effects",
-	"5. Consider The Internet",
-	"6. Sleep Rotation",
-	"7. Auid Flaurist",
-	"8. Let's Make The Most Of Our Time Here",
-	"9. Horus",
-	"10. Soft Opening",
-	"11. =0"
+	"1. Cleyra - Naked",
+	"2. rRoxymore - bBRINGTHEbRAVE",
+	"3. Chekov - Stasis 113",
+	"4. Via Maris - Side Effects",
+	"5. Simo Cell - Consider The Internet",
+	"6. Rae - Sleep Rotation",
+	"7. Metrist - Auid Flaurist",
+	"8. Bruce - Let's Make The Most Of Our Time Here",
+	"9. Neinzer - Horus",
+	"10. Nico - Soft Opening",
+	"11. Ploy - =0"
 ]
 
 # Embed a Bandcamp player
