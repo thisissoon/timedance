@@ -42,9 +42,9 @@ tracks = [
 ]
 
 # Embed a Bandcamp player
-bandcampTrack = ""
-bandcampLink = ""
-bandcampTitle = ""
+bandcampTrack = "1392830982"
+bandcampLink = "http://airmax97.bandcamp.com/album/ice-bridge-bruxis"
+bandcampTitle = "Ice Bridge / Bruxis by Air Max '97"
 
 # Any news relating to this release e.g. reviews. Provide a title and link
 newsTitle01 = ""
