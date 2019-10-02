@@ -22,7 +22,7 @@ type = "Releases"
 tags = [ 
 	"Air Max '97", 
 	"Techno",
-	"Bass"
+	""
 ]
 
 # Any categories (currently not in use)
