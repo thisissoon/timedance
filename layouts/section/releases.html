@@ -1,6 +1,6 @@
 {{ partial "default_head.html" . }}
 
-{{ $paginator := .Paginate (where .Data.Pages "Type" "Releases") 8 }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "Releases") 8 }}
 
 <div class="list fadein">
 
