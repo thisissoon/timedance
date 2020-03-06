@@ -10,7 +10,7 @@ jobs:
       TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
     steps:
       - checkout
-      - run: go get -v github.com/spf13/hugo
+      - run: go get https://github.com/gohugoio/hugo
       - run:
           name: tests
           command: echo "test"
