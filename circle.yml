@@ -5,11 +5,18 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: circleci/hugo@0.5.2
+      - image: circleci/golang:1.12
     environment:
       TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
     steps:
       - checkout
+      - run: install hugo
+          command: |
+            mkdir $HOME/src
+            cd $HOME/src
+            git clone https://github.com/gohugoio/hugo.git
+            cd hugo
+            go install --tags extended
       - run:
           name: tests
           command: echo "test"
