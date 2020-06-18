@@ -5,12 +5,11 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: circleci/golang:latest
+      - image: circleci/hugo@0.5.2
     environment:
       TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
     steps:
       - checkout
-      - run: go get -v github.com/gohugoio/hugo
       - run:
           name: tests
           command: echo "test"
