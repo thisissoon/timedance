@@ -13,8 +13,7 @@ jobs:
       - run: mkdir $HOME/src
       - run: cd $HOME/src
       - run: git clone https://github.com/gohugoio/hugo.git
-      - run: cd hugo
-      - run: go install --tags extended
+      - run: cd hugo && go install --tags extended
       - run:
           name: tests
           command: echo "test"
