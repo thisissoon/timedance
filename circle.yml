@@ -10,8 +10,8 @@ jobs:
       TAG: $(sed 's/master/latest/;s/\//\-/' <<<$CIRCLE_BRANCH)
     steps:
       - checkout
-      - run: mkdir tmp/src
-      - run: cd tmp/src
+      - run: mkdir $HOME/src
+      - run: cd $HOME/src
       - run: git clone https://github.com/gohugoio/hugo.git
       - run: cd hugo
       - run: go install --tags extended
