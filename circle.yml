@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run: mkdir $HOME/src
       - run: cd $HOME/src
-      - run: git clone https://github.com/gohugoio/hugo.git
+      - run: git clone -b 'v0.72.0' https://github.com/gohugoio/hugo.git
       - run: cd hugo && go install --tags extended
       - run:
           name: tests
