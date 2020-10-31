@@ -32,7 +32,7 @@ categories = [
 ]
 
 # Artist name
-artist = "MLaksa"
+artist = "Laksa"
 
 # Track names (comma-separated)
 tracks = [
