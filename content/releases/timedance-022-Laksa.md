@@ -13,7 +13,7 @@ title = "Sen On One"
 date = "2020-09-11T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-021-Metrist.jpg"
+image = "releases/timedance-022-Laksa.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
@@ -36,8 +36,8 @@ artist = "MLaksa"
 
 # Track names (comma-separated)
 tracks = [
-	"1. Ardhall",
-	"2. FWD Ghosts",
+  "1. Ardhall",
+  "2. FWD Ghosts",
   "3. Bane",
   "4. Sen On One"
   
