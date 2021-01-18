@@ -7,7 +7,7 @@ draft = "false"
 description = ""
 
 # Release title
-title = "Sen On One"
+title = "Laksa - Sen On One"
 
 # Release date
 date = "2020-09-11T00:00:01Z"
