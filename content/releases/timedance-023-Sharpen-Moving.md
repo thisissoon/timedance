@@ -13,7 +13,7 @@ title = "Sharpen, Moving"
 date = "2020-11-27T00:00:01Z"
 
 # Artwork (see image guidelines)
-image = "releases/timedance-023-Sharpen, Moving.jpg"
+image = "timedance-023-Sharpen-Moving.jpg"
 
 # This renders the correct template i.e. Releases or Events
 type = "Releases"
