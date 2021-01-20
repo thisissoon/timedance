@@ -76,9 +76,9 @@ newsLink04 = "https://thequietus.com/articles/29249-cleyra-shafted-track-premier
 
 <!-- Provide a summary/statement below -->
 'Sharpen, Moving' celebrates five years of the Timedance imprint, blending the labels original aesthetic and opening it up into new corners of leftfield club music. Artists featuring include the regular faces of Batu, Bruce, Ploy and Metrist, alongside newcomers Kit Seymour, Akiko Haruna and Mang & GRAŃ. Timedance also welcomes techno royalty Peter Van Hoesen with one of his most broken tracks to date, plus new appearances from Patina Echoes contributors Via Maris, Cleyra and Nico.
-
+<br>
 The compilation showcases Timedance's evolution from 'Bristol techno' to a more global conscious sound, incorporating energies from different scenes and synthesising them into new modern forms.
 credits
-
+<br>
 Artwork by Harry Butt
 
